@@ -192,3 +192,184 @@
     ]
   }
 }
+{
+  "burstObservatory" : {
+    "pingConfig" : {
+      "connectivity" : "",
+      "destination" : "http:\/\/www.gstatic.com\/generate_204",
+      "interval" : "10m",
+      "sampling" : 2,
+      "timeout" : "10s"
+    },
+    "subjectSelector" : [
+      "proxy"
+    ]
+  },
+  "dns" : {
+    "queryStrategy" : "UseIPv4",
+    "servers" : [
+      "1.1.1.1",
+      "https:\/\/dns.adguard.com\/dns-query"
+    ]
+  },
+  "inbounds" : [
+    {
+      "listen" : "127.0.0.1",
+      "port" : 10808,
+      "protocol" : "socks",
+      "settings" : {
+        "auth" : "noauth",
+        "udp" : true
+      },
+      "sniffing" : {
+        "destOverride" : [
+          "http",
+          "tls",
+          "quic"
+        ],
+        "enabled" : true,
+        "routeOnly" : false
+      },
+      "tag" : "socks"
+    },
+    {
+      "listen" : "127.0.0.1",
+      "port" : 10809,
+      "protocol" : "http",
+      "settings" : {
+        "allowTransparent" : false
+      },
+      "sniffing" : {
+        "destOverride" : [
+          "http",
+          "tls",
+          "quic"
+        ],
+        "enabled" : true,
+        "routeOnly" : false
+      },
+      "tag" : "http"
+    }
+  ],
+  "log" : {
+    "access" : "\/private\/var\/mobile\/Containers\/Shared\/AppGroup\/4043B84E-AE69-4031-B437-5B80FE89A184\/Library\/Application Support\/Xray\/logs\/access.log",
+    "dnsLog" : true,
+    "loglevel" : "Warning"
+  },
+  "outbounds" : [
+    {
+      "protocol" : "trojan",
+      "settings" : {
+        "servers" : [
+          {
+            "address" : "109.120.191.129",
+            "password" : "sHNhd-NqwDMxdMKymMCxrdEXHxjL64db",
+            "port" : 8443
+          }
+        ]
+      },
+      "streamSettings" : {
+        "network" : "tcp",
+        "security" : "tls",
+        "tcpSettings" : {
+
+        },
+        "tlsSettings" : {
+          "allowInsecure" : false,
+          "alpn" : [
+            "h2",
+            "http\/1.1"
+          ],
+          "fingerprint" : "qq",
+          "serverName" : "pltwo.rushtaxi.ru",
+          "show" : false
+        }
+      },
+      "tag" : "proxy"
+    },
+    {
+      "protocol" : "trojan",
+      "settings" : {
+        "servers" : [
+          {
+            "address" : "109.120.191.129",
+            "password" : "sHNhd-NqwDMxdMKymMCxrdEXHxjL64db",
+            "port" : 7443
+          }
+        ]
+      },
+      "streamSettings" : {
+        "network" : "tcp",
+        "security" : "tls",
+        "tcpSettings" : {
+
+        },
+        "tlsSettings" : {
+          "allowInsecure" : false,
+          "alpn" : [
+            "h2",
+            "http\/1.1"
+          ],
+          "fingerprint" : "qq",
+          "serverName" : "plthree.rushtaxi.ru",
+          "show" : false
+        }
+      },
+      "tag" : "proxy-2"
+    },
+    {
+      "protocol" : "freedom",
+      "tag" : "direct"
+    },
+    {
+      "protocol" : "blackhole",
+      "tag" : "block"
+    }
+  ],
+  "remarks" : "🇵🇱Польша(Обход#43-Trojan)",
+  "routing" : {
+    "balancers" : [
+      {
+        "fallbackTag" : "direct",
+        "selector" : [
+          "proxy"
+        ],
+        "strategy" : {
+          "settings" : {
+            "baselines" : [
+              "1s"
+            ],
+            "expected" : 2,
+            "maxRTT" : "1s",
+            "tolerance" : 60.009999999999998
+          },
+          "type" : "leastLoad"
+        },
+        "tag" : "Balancer"
+      }
+    ],
+    "domainMatcher" : "hybrid",
+    "domainStrategy" : "IPIfNonMatch",
+    "rules" : [
+      {
+        "domain" : [
+          "geosite:category-ads-all"
+        ],
+        "outboundTag" : "block",
+        "type" : "field"
+      },
+      {
+        "outboundTag" : "direct",
+        "protocol" : [
+          "bittorrent"
+        ],
+        "type" : "field"
+      },
+      {
+        "balancerTag" : "Balancer",
+        "network" : "tcp,udp",
+        "type" : "field"
+      }
+    ]
+  }
+}
