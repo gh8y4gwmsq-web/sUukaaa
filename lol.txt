@@ -1,1 +1,410 @@
-[{"dns":{"servers":["1.1.1.1","1.0.0.1"],"queryStrategy":"UseIP"},"routing":{"rules":[{"type":"field","protocol":["bittorrent"],"outboundTag":"direct"}],"domainMatcher":"hybrid","domainStrategy":"IPIfNonMatch"},"inbounds":[{"tag":"socks","port":10808,"listen":"127.0.0.1","protocol":"socks","settings":{"udp":true,"auth":"noauth"},"sniffing":{"enabled":true,"routeOnly":false,"destOverride":["http","tls","quic"]}},{"tag":"http","port":10809,"listen":"127.0.0.1","protocol":"http","settings":{"allowTransparent":false},"sniffing":{"enabled":true,"routeOnly":false,"destOverride":["http","tls","quic"]}}],"outbounds":[{"tag":"proxy","protocol":"vless","settings":{"vnext":[{"address":"sasak.streamlive-24.ru","port":37046,"users":[{"id":"807a393f-dadf-4701-bd89-1b04bae1b175","encryption":"none","flow":""}]}]},"streamSettings":{"network":"grpc","grpcSettings":{"serviceName":"grpc","authority":"sasak.streamlive-24.ru","mode":false},"security":"reality","realitySettings":{"serverName":"sasak.streamlive-24.ru","publicKey":"Eb37rb6bNvZy5C6XVKb7z4wcdD_9G6tjz3Q8BBxINH4","shortId":"8aa799bacd49f5be","fingerprint":"random"}}},{"tag":"direct","protocol":"freedom"},{"tag":"block","protocol":"blackhole"}],"remarks":"🇺🇸 США, Финикс"},{"dns":{"servers":["1.1.1.1","1.0.0.1"],"queryStrategy":"UseIP"},"routing":{"rules":[{"type":"field","protocol":["bittorrent"],"outboundTag":"direct"}],"domainMatcher":"hybrid","domainStrategy":"IPIfNonMatch"},"inbounds":[{"tag":"socks","port":10808,"listen":"127.0.0.1","protocol":"socks","settings":{"udp":true,"auth":"noauth"},"sniffing":{"enabled":true,"routeOnly":false,"destOverride":["http","tls","quic"]}},{"tag":"http","port":10809,"listen":"127.0.0.1","protocol":"http","settings":{"allowTransparent":false},"sniffing":{"enabled":true,"routeOnly":false,"destOverride":["http","tls","quic"]}}],"outbounds":[{"tag":"proxy","protocol":"vless","settings":{"vnext":[{"address":"multi.streamlive-24.ru","port":4443,"users":[{"id":"807a393f-dadf-4701-bd89-1b04bae1b175","encryption":"none","flow":""}]}]},"streamSettings":{"network":"xhttp","xhttpSettings":{"mode":"auto","host":"multi.streamlive-24.ru","path":"/check-update"},"security":"reality","realitySettings":{"serverName":"multi.streamlive-24.ru","publicKey":"IROxyU40u_jY4g6gI6TI1F7ZSB5VkA7H02s8IRgRyk8","shortId":"16f1d75bdb9d145b","fingerprint":"random"}}},{"tag":"direct","protocol":"freedom"},{"tag":"block","protocol":"blackhole"}],"remarks":"🇪🇺 Мульти Евро"},{"dns":{"servers":["1.1.1.1","1.0.0.1"],"queryStrategy":"UseIP"},"routing":{"rules":[{"type":"field","protocol":["bittorrent"],"outboundTag":"direct"}],"domainMatcher":"hybrid","domainStrategy":"IPIfNonMatch"},"inbounds":[{"tag":"socks","port":10808,"listen":"127.0.0.1","protocol":"socks","settings":{"udp":true,"auth":"noauth"},"sniffing":{"enabled":true,"routeOnly":false,"destOverride":["http","tls","quic"]}},{"tag":"http","port":10809,"listen":"127.0.0.1","protocol":"http","settings":{"allowTransparent":false},"sniffing":{"enabled":true,"routeOnly":false,"destOverride":["http","tls","quic"]}}],"outbounds":[{"tag":"proxy","protocol":"vless","settings":{"vnext":[{"address":"sasak.streamlive-24.ru","port":7443,"users":[{"id":"807a393f-dadf-4701-bd89-1b04bae1b175","encryption":"none","flow":""}]}]},"streamSettings":{"network":"grpc","grpcSettings":{"serviceName":"grpc","authority":"sasak.streamlive-24.ru","mode":false},"security":"reality","realitySettings":{"serverName":"sasak.streamlive-24.ru","publicKey":"6vgAot7adArthY78NCftEVmIJEJwKevsFL1lZNS_wH0","shortId":"8aa799bacd49f5be","fingerprint":"random"}}},{"tag":"direct","protocol":"freedom"},{"tag":"block","protocol":"blackhole"}],"remarks":" 🇦🇹 Австрия, Вена"},{"dns":{"servers":["1.1.1.1","1.0.0.1"],"queryStrategy":"UseIP"},"routing":{"rules":[{"type":"field","protocol":["bittorrent"],"outboundTag":"direct"}],"domainMatcher":"hybrid","domainStrategy":"IPIfNonMatch"},"inbounds":[{"tag":"socks","port":10808,"listen":"127.0.0.1","protocol":"socks","settings":{"udp":true,"auth":"noauth"},"sniffing":{"enabled":true,"routeOnly":false,"destOverride":["http","tls","quic"]}},{"tag":"http","port":10809,"listen":"127.0.0.1","protocol":"http","settings":{"allowTransparent":false},"sniffing":{"enabled":true,"routeOnly":false,"destOverride":["http","tls","quic"]}}],"outbounds":[{"tag":"proxy","protocol":"vless","settings":{"vnext":[{"address":"sasak.streamlive-24.ru","port":5443,"users":[{"id":"807a393f-dadf-4701-bd89-1b04bae1b175","encryption":"none","flow":""}]}]},"streamSettings":{"network":"grpc","grpcSettings":{"serviceName":"grpc","authority":"sasak.streamlive-24.ru","mode":false},"security":"reality","realitySettings":{"serverName":"sasak.streamlive-24.ru","publicKey":"Il7s_A5z9_hxN_6ha5ixHx29WOoJEFGz8eY8C139BDo","shortId":"8aa799bacd49f5be","fingerprint":"random"}}},{"tag":"direct","protocol":"freedom"},{"tag":"block","protocol":"blackhole"}],"remarks":"🇧🇾 Беларусь, Минск"},{"dns":{"servers":["1.1.1.1","1.0.0.1"],"queryStrategy":"UseIP"},"routing":{"rules":[{"type":"field","protocol":["bittorrent"],"outboundTag":"direct"}],"domainMatcher":"hybrid","domainStrategy":"IPIfNonMatch"},"inbounds":[{"tag":"socks","port":10808,"listen":"127.0.0.1","protocol":"socks","settings":{"udp":true,"auth":"noauth"},"sniffing":{"enabled":true,"routeOnly":false,"destOverride":["http","tls","quic"]}},{"tag":"http","port":10809,"listen":"127.0.0.1","protocol":"http","settings":{"allowTransparent":false},"sniffing":{"enabled":true,"routeOnly":false,"destOverride":["http","tls","quic"]}}],"outbounds":[{"tag":"proxy","protocol":"vless","settings":{"vnext":[{"address":"sasak.streamlive-24.ru","port":9443,"users":[{"id":"807a393f-dadf-4701-bd89-1b04bae1b175","encryption":"none","flow":""}]}]},"streamSettings":{"network":"grpc","grpcSettings":{"serviceName":"grpc","authority":"sasak.streamlive-24.ru","mode":false},"security":"reality","realitySettings":{"serverName":"sasak.streamlive-24.ru","publicKey":"KKsLSaifzVmKc-fnqDg70ClH2vrHkgnFMVblCwDiTjo","shortId":"8aa799bacd49f5be","fingerprint":"random"}}},{"tag":"direct","protocol":"freedom"},{"tag":"block","protocol":"blackhole"}],
+{
+  "dns" : {
+    "queryStrategy" : "UseIPv4",
+    "servers" : [
+      "8.8.8.8",
+      "8.8.4.4"
+    ]
+  },
+  "inbounds" : [
+    {
+      "listen" : "127.0.0.1",
+      "port" : 10808,
+      "protocol" : "socks",
+      "settings" : {
+        "auth" : "noauth",
+        "udp" : true
+      },
+      "sniffing" : {
+        "destOverride" : [
+          "http",
+          "tls",
+          "quic"
+        ],
+        "enabled" : true,
+        "routeOnly" : true
+      },
+      "tag" : "socks"
+    },
+    {
+      "listen" : "127.0.0.1",
+      "port" : 10801,
+      "protocol" : "dokodemo-door",
+      "settings" : {
+        "address" : "127.0.0.1",
+        "network" : "tcp,udp",
+        "port" : 0
+      },
+      "tag" : "entry-tier2"
+    },
+    {
+      "listen" : "127.0.0.1",
+      "port" : 10802,
+      "protocol" : "dokodemo-door",
+      "settings" : {
+        "address" : "127.0.0.1",
+        "network" : "tcp,udp",
+        "port" : 0
+      },
+      "tag" : "entry-tier3"
+    }
+  ],
+  "log" : {
+    "access" : "\/private\/var\/mobile\/Containers\/Shared\/AppGroup\/4043B84E-AE69-4031-B437-5B80FE89A184\/Library\/Application Support\/Xray\/logs\/access.log",
+    "dnsLog" : true,
+    "loglevel" : "Warning"
+  },
+  "meta" : {
+    "routingTags" : [
+      "universal"
+    ]
+  },
+  "observatory" : {
+    "enableConcurrency" : true,
+    "probeInterval" : "1m",
+    "probeUrl" : "https:\/\/www.google.com\/generate_204",
+    "subjectSelector" : [
+      "p1-",
+      "tier2-",
+      "tier3-"
+    ]
+  },
+  "outbounds" : [
+    {
+      "protocol" : "freedom",
+      "tag" : "direct"
+    },
+    {
+      "protocol" : "blackhole",
+      "tag" : "block"
+    },
+    {
+      "protocol" : "loopback",
+      "settings" : {
+        "inboundTag" : "entry-tier2"
+      },
+      "tag" : "loop_to_tier2"
+    },
+    {
+      "protocol" : "loopback",
+      "settings" : {
+        "inboundTag" : "entry-tier3"
+      },
+      "tag" : "loop_to_tier3"
+    },
+    {
+      "protocol" : "vless",
+      "settings" : {
+        "vnext" : [
+          {
+            "address" : "72.57.78.4",
+            "port" : 443,
+            "users" : [
+              {
+                "encryption" : "none",
+                "flow" : "xtls-rprx-vision",
+                "id" : "6779d690-d4bd-4769-b2f3-18daa6ce8748"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings" : {
+        "network" : "tcp",
+        "realitySettings" : {
+          "fingerprint" : "ios",
+          "publicKey" : "8m2VEw-PsbP83cFmX9l_7772ESn2StqJkzcNRusWRnI",
+          "serverName" : "get-ipv4-stream712.streamcenter.ru",
+          "shortId" : "58e3e82f80",
+          "show" : false,
+          "spiderX" : "\/"
+        },
+        "security" : "reality"
+      },
+      "tag" : "p1-nl+-NWtI12DahA"
+    },
+    {
+      "protocol" : "vless",
+      "settings" : {
+        "vnext" : [
+          {
+            "address" : "2.26.135.82",
+            "port" : 443,
+            "users" : [
+              {
+                "encryption" : "none",
+                "flow" : "xtls-rprx-vision",
+                "id" : "6779d690-d4bd-4769-b2f3-18daa6ce8748"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings" : {
+        "network" : "tcp",
+        "realitySettings" : {
+          "fingerprint" : "ios",
+          "publicKey" : "YeIWV7Vs8IMLxymK1-HchGi5sKInAqGplx9MveQeHGI",
+          "serverName" : "internal-api.cube-streamer.ru",
+          "shortId" : "f03597",
+          "show" : false,
+          "spiderX" : "\/"
+        },
+        "security" : "reality"
+      },
+      "tag" : "p1-germany-1-ELfq6nP3uP"
+    },
+    {
+      "protocol" : "vless",
+      "settings" : {
+        "vnext" : [
+          {
+            "address" : "2.27.94.24",
+            "port" : 443,
+            "users" : [
+              {
+                "encryption" : "none",
+                "flow" : "xtls-rprx-vision",
+                "id" : "6779d690-d4bd-4769-b2f3-18daa6ce8748"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings" : {
+        "network" : "tcp",
+        "realitySettings" : {
+          "fingerprint" : "ios",
+          "publicKey" : "osp0GxfBARToaW0si2j6kG24ExRbZ1JWXQ_8L93fUA4",
+          "serverName" : "remontka.pro",
+          "shortId" : "f03597",
+          "show" : false,
+          "spiderX" : "\/"
+        },
+        "security" : "reality"
+      },
+      "tag" : "p1-frda-8tvnSGOgwb"
+    },
+    {
+      "protocol" : "vless",
+      "settings" : {
+        "vnext" : [
+          {
+            "address" : "46.243.142.122",
+            "port" : 443,
+            "users" : [
+              {
+                "encryption" : "none",
+                "flow" : "xtls-rprx-vision",
+                "id" : "6779d690-d4bd-4769-b2f3-18daa6ce8748"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings" : {
+        "network" : "tcp",
+        "realitySettings" : {
+          "fingerprint" : "ios",
+          "publicKey" : "B8ekmOgk9QTnXJJOR_4lDSUapa7PZvV2E37l1Nm4lxk",
+          "serverName" : "ads.x5.ru",
+          "shortId" : "f497fe3dff69ff78",
+          "show" : false,
+          "spiderX" : "\/"
+        },
+        "security" : "reality"
+      },
+      "tag" : "tier2-cr-QfIuJ1W3sA"
+    },
+    {
+      "protocol" : "vless",
+      "settings" : {
+        "vnext" : [
+          {
+            "address" : "178.248.238.95",
+            "port" : 2443,
+            "users" : [
+              {
+                "encryption" : "none",
+                "flow" : "xtls-rprx-vision",
+                "id" : "6779d690-d4bd-4769-b2f3-18daa6ce8748"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings" : {
+        "network" : "tcp",
+        "realitySettings" : {
+          "fingerprint" : "edge",
+          "publicKey" : "B8ekmOgk9QTnXJJOR_4lDSUapa7PZvV2E37l1Nm4lxk",
+          "serverName" : "rutube.ru",
+          "shortId" : "f497fe3dff69ff78",
+          "show" : false,
+          "spiderX" : "\/"
+        },
+        "security" : "reality"
+      },
+      "tag" : "tier3-cu2-b7WPk0VWiN"
+    },
+    {
+      "protocol" : "vless",
+      "settings" : {
+        "vnext" : [
+          {
+            "address" : "178.248.238.95",
+            "port" : 2443,
+            "users" : [
+              {
+                "encryption" : "none",
+                "flow" : "xtls-rprx-vision",
+                "id" : "6779d690-d4bd-4769-b2f3-18daa6ce8748"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings" : {
+        "network" : "tcp",
+        "realitySettings" : {
+          "fingerprint" : "safari",
+          "publicKey" : "B8ekmOgk9QTnXJJOR_4lDSUapa7PZvV2E37l1Nm4lxk",
+          "serverName" : "ads.x5.ru",
+          "shortId" : "f497fe3dff69ff78",
+          "show" : false,
+          "spiderX" : "\/"
+        },
+        "security" : "reality"
+      },
+      "tag" : "tier3-mt-7Ci2MjXIa7"
+    }
+  ],
+  "remarks" : "🇩🇪 Белые списки 🧶",
+  "routing" : {
+    "balancers" : [
+      {
+        "fallbackTag" : "loop_to_tier2",
+        "selector" : [
+          "p1-"
+        ],
+        "strategy" : {
+          "settings" : {
+            "cost_step" : 0,
+            "maxRTT" : "5s"
+          },
+          "type" : "leastLoad"
+        },
+        "tag" : "lb_ping"
+      },
+      {
+        "fallbackTag" : "loop_to_tier3",
+        "selector" : [
+          "tier2-"
+        ],
+        "strategy" : {
+          "settings" : {
+            "cost_step" : 0,
+            "maxRTT" : "15s"
+          },
+          "type" : "leastLoad"
+        },
+        "tag" : "lb_tier2"
+      },
+      {
+        "selector" : [
+          "tier3-"
+        ],
+        "strategy" : {
+          "type" : "leastLoad"
+        },
+        "tag" : "lb_tier3"
+      }
+    ],
+    "domainMatcher" : "hybrid",
+    "domainStrategy" : "AsIs",
+    "rules" : [
+      {
+        "domain" : [
+          "domain:ru",
+          "domain:su",
+          "domain:xn--p1ai",
+          "domain:moscow",
+          "domain:ya.cc",
+          "domain:yandex.com",
+          "domain:yandex.net",
+          "domain:yango.com",
+          "domain:vk.com",
+          "domain:vk.cc",
+          "domain:mvk.com",
+          "domain:mycdn.me",
+          "domain:my.com",
+          "domain:my.games",
+          "domain:ok.me",
+          "domain:kaspersky.com",
+          "domain:ozon.com",
+          "domain:ozon.by",
+          "domain:ozon.kz",
+          "domain:wildberries.by",
+          "domain:wildberries.kz",
+          "domain:2gis.com",
+          "domain:magnit.com",
+          "domain:fix-price.com",
+          "domain:x5.tech",
+          "domain:megafon.com",
+          "domain:moex.com",
+          "domain:okko.tv",
+          "domain:okko.sport",
+          "domain:boosty.to",
+          "domain:lenta.com",
+          "domain:meduza.io",
+          "domain:premier.one",
+          "domain:hh.by",
+          "domain:hh.kz",
+          "domain:mosmetro.tech",
+          "domain:avs.io"
+        ],
+        "outboundTag" : "direct",
+        "type" : "field"
+      },
+      {
+        "outboundTag" : "direct",
+        "protocol" : [
+          "bittorrent"
+        ],
+        "type" : "field"
+      },
+      {
+        "ip" : [
+          "89.208.85.188"
+        ],
+        "outboundTag" : "direct"
+      },
+      {
+        "balancerTag" : "lb_ping",
+        "inboundTag" : [
+          "socks-in",
+          "http-in",
+          "socks",
+          "http",
+          "tun-in"
+        ],
+        "network" : "tcp,udp",
+        "type" : "field"
+      },
+      {
+        "balancerTag" : "lb_tier2",
+        "inboundTag" : [
+          "entry-tier2"
+        ],
+        "type" : "field"
+      },
+      {
+        "balancerTag" : "lb_tier3",
+        "inboundTag" : [
+          "entry-tier3"
+        ],
+        "type" : "field"
+      }
+    ]
+  }
+}
