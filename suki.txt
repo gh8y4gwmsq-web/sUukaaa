@@ -2,6 +2,7 @@
 #profile-update-interval: 24
 #announce: Не работает, напиши мне
 #support-url: https://t.me/m12ar34at
+subscription-userinfo: upload=4; download=2; total=3; expire=2000
 vless://35386173-5f2e-4c4d-acfc-013582de2e5b@45.95.202.113:37505?encryption=none&type=tcp&headerType=http&host=m.vk.com&path=/&security=none#Sueta
 vless://35386173-5f2e-4c4d-acfc-013582de2e5b@45.95.202.113:37505?encryption=none&type=tcp&headerType=http&host=lk.megafon.ru/wp/nomoney/topup&path=/&security=none#SuetaMega
 vless://6779d690-d4bd-4769-b2f3-18daa6ce8748@46.243.142.122:443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=ios&sni=ads.x5.ru&pbk=B8ekmOgk9QTnXJJOR_4lDSUapa7PZvV2E37l1Nm4lxk&sid=f497fe3dff69ff78#Riba%F0%9F%A7%B6
