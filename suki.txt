@@ -1,2 +1,5 @@
+#profile-title: Marat
+#profile-update-interval: 24
+#announce: Не работает, напиши мне
 vless://35386173-5f2e-4c4d-acfc-013582de2e5b@45.95.202.113:37505?encryption=none&type=tcp&headerType=http&host=m.vk.com&path=/&security=none#Sueta
 vless://35386173-5f2e-4c4d-acfc-013582de2e5b@45.95.202.113:37505?encryption=none&type=tcp&headerType=http&host=lk.megafon.ru/wp/nomoney/topup&path=/&security=none#SuetaMega
