@@ -1,6 +1,6 @@
 #profile-title: Marat
 #profile-update-interval: 24
-#announce: Не работает, напиши мне
+#announce: Не работает, напиши мне!
 #support-url: https://t.me/m12ar34at
 #subscription-userinfo: upload=3; download=2; total=4; expire=222
 vless://35386173-5f2e-4c4d-acfc-013582de2e5b@45.95.202.113:37505?encryption=none&type=tcp&headerType=http&host=m.vk.com&path=/&security=none#Sueta
