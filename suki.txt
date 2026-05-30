@@ -11,4 +11,3 @@ vless://d7903de5-4954-4012-80de-f501676dfb20@46.243.142.228:443?security=reality
 vless://03b804c4-4cd0-4eb7-ad74-cdee26981d9b@46.243.142.13:443?security=reality&sni=ads.x5.ru&fp=ios&pbk=B8ekmOgk9QTnXJJOR_4lDSUapa7PZvV2E37l1Nm4lxk&sid=f497fe3dff69ff78&type=tcp&flow=xtls-rprx-vision#Riba3Auto
 trojan://sHNhd-NqwDMxdMKymMCxrdEXHxjL64db@185.91.54.224:7443?security=tls&sni=pltwo.rushtaxi.ru&fp=qq&alpn=h2,http/1.1&type=tcp#Польша44
 trojan://sHNhd-NqwDMxdMKymMCxrdEXHxjL64db@109.120.191.129:8443?security=tls&sni=pltwo.rushtaxi.ru&fp=qq&alpn=h2,http/1.1&type=tcp#Польша43
-vless://3f0a5d80-1a82-442d-ac9a-24ff64aaac9b@185.242.19.249:443?flow=&type=ws&host=cdn.viewwave.cloud&path=/api/v1/playback/sessions/c9369672/019e729b-0375-afa0-73d1-9a138edb131a6&security=tls&sni=top1871030186.mwscdn.ru&fp=chrome&allowInsecure=1#Black1
