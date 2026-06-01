@@ -13,32 +13,18 @@ vless://bf04aa11-6430-4921-a006-8def771f72b4@62.152.58.99:443?type=grpc&mode=gun
 vless://a87e2b1a-81a9-4e3b-8252-5094d732aef9@84.201.130.25:443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=chrome&sni=wl-5-2.nodes.ac&pbk=e0Mb11d4CAtw89qrvJ59Lu0rfplLy6xLh2tbsKoN2UM&sid=7c05417ed86af034#%F0%9F%87%B3%F0%9F%87%B1Gh0st_WhiteList%20%23156
 vless://dd791658-0c7b-461d-af78-226e5c971935@178.250.243.231:8443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=ads.x5.ru&fp=qq&pbk=lCwVDvngXM3kLz86XpOJmZ46coOVaV7Kl7vB7cCPeQI&sid=a20d3ed244c76426&type=tcp#Auto-1
 
-vless://dd791658-0c7b-461d-af78-226e5c971935@178.250.243.232:8443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=web.max.ru&fp=qq&pbk=lCwVDvngXM3kLz86XpOJmZ46coOVaV7Kl7vB7cCPeQI&sid=a20d3ed244c76426&type=tcp#Auto-2
+vless://dd791658-0c7b-461d-af78-226e5c971935@5.188.115.58:7443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=ads.x5.ru&fp=randomized&pbk=J5ITJbg5FQFembAfkogKHHQB6DigsFXQxK7xu-QMWUs&sid=a20d3ed244c76426&type=tcp#Auto-1
 
-vless://dd791658-0c7b-461d-af78-226e5c971935@178.250.243.234:8443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=max.ru&fp=qq&pbk=lCwVDvngXM3kLz86XpOJmZ46coOVaV7Kl7vB7cCPeQI&sid=a20d3ed244c76426&type=tcp#Auto-3
+trojan://sHNhd-NqwDMxdMKymMCxrdEXHxjL64db@37.9.4.44:8443?security=tls&type=tcp&sni=upp.federal-usa.com&alpn=h2%2Chttp%2F1.1&fp=randomized#Auto-2
 
-vless://dd791658-0c7b-461d-af78-226e5c971935@178.250.243.235:8443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=yandex.ru&fp=qq&pbk=lCwVDvngXM3kLz86XpOJmZ46coOVaV7Kl7vB7cCPeQI&sid=a20d3ed244c76426&type=tcp#Auto-4
+trojan://sHNhd-NqwDMxdMKymMCxrdEXHxjL64db@5.188.115.32:8443?security=tls&type=tcp&sni=upp.federal-usa.com&alpn=h2%2Chttp%2F1.1&fp=randomized#Auto-3
 
-vless://dd791658-0c7b-461d-af78-226e5c971935@178.250.243.237:8443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=sun6-22.userapi.com&fp=qq&pbk=lCwVDvngXM3kLz86XpOJmZ46coOVaV7Kl7vB7cCPeQI&sid=a20d3ed244c76426&type=tcp#Auto-5
+trojan://sHNhd-NqwDMxdMKymMCxrdEXHxjL64db@5.188.115.81:8443?security=tls&type=tcp&sni=upp.federal-usa.com&alpn=h2%2Chttp%2F1.1&fp=randomized#Auto-4
 
-vless://dd791658-0c7b-461d-af78-226e5c971935@178.250.242.13:8443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=ads.x5.ru&fp=qq&pbk=lCwVDvngXM3kLz86XpOJmZ46coOVaV7Kl7vB7cCPeQI&sid=a20d3ed244c76426&type=tcp#Auto-6
+trojan://sHNhd-NqwDMxdMKymMCxrdEXHxjL64db@5.188.115.64:8443?security=tls&type=tcp&sni=upp.federal-usa.com&alpn=h2%2Chttp%2F1.1&fp=randomized#Auto-5
 
-vless://dd791658-0c7b-461d-af78-226e5c971935@178.250.242.67:8443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=io.ozone.ru&fp=qq&pbk=lCwVDvngXM3kLz86XpOJmZ46coOVaV7Kl7vB7cCPeQI&sid=a20d3ed244c76426&type=tcp#Auto-7
+trojan://sHNhd-NqwDMxdMKymMCxrdEXHxjL64db@5.188.115.162:8443?security=tls&type=tcp&sni=upp.federal-usa.com&alpn=h2%2Chttp%2F1.1&fp=randomized#Auto-6
 
-vless://dd791658-0c7b-461d-af78-226e5c971935@84.201.155.222:8443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=ads.x5.ru&fp=qq&pbk=lCwVDvngXM3kLz86XpOJmZ46coOVaV7Kl7vB7cCPeQI&sid=a20d3ed244c76426&type=tcp#Auto-8
+trojan://sHNhd-NqwDMxdMKymMCxrdEXHxjL64db@5.188.115.228:8443?security=tls&type=tcp&sni=upp.federal-usa.com&alpn=h2%2Chttp%2F1.1&fp=randomized#Auto-7
 
-vless://dd791658-0c7b-461d-af78-226e5c971935@87.242.102.193:8443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=yandex.ru&fp=qq&pbk=lCwVDvngXM3kLz86XpOJmZ46coOVaV7Kl7vB7cCPeQI&sid=a20d3ed244c76426&type=tcp#Auto-9
-
-vless://dd791658-0c7b-461d-af78-226e5c971935@45.145.40.61:7443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=speed.overload.ovh&fp=chrome&pbk=lCwVDvngXM3kLz86XpOJmZ46coOVaV7Kl7vB7cCPeQI&sid=a20d3ed244c76426&type=tcp#Auto-10
-
-vless://dd791658-0c7b-461d-af78-226e5c971935@79.174.91.187:22?encryption=none&security=reality&sni=ads.x5.ru&fp=randomized&pbk=J5ITJbg5FQFembAfkogKHHQB6DigsFXQxK7xu-QMWUs&sid=6b2f4e6ac9b1d2f0&type=grpc&serviceName=grpc#Auto-11
-
-vless://dd791658-0c7b-461d-af78-226e5c971935@79.174.94.87:22?encryption=none&security=reality&sni=ads.x5.ru&fp=randomized&pbk=J5ITJbg5FQFembAfkogKHHQB6DigsFXQxK7xu-QMWUs&sid=6b2f4e6ac9b1d2f0&type=grpc&serviceName=grpc#Auto-12
-
-vless://dd791658-0c7b-461d-af78-226e5c971935@79.174.92.178:22?encryption=none&security=reality&sni=ads.x5.ru&fp=randomized&pbk=J5ITJbg5FQFembAfkogKHHQB6DigsFXQxK7xu-QMWUs&sid=6b2f4e6ac9b1d2f0&type=grpc&serviceName=grpc#Auto-13
-
-vless://dd791658-0c7b-461d-af78-226e5c971935@79.174.92.232:22?encryption=none&security=reality&sni=ads.x5.ru&fp=randomized&pbk=J5ITJbg5FQFembAfkogKHHQB6DigsFXQxK7xu-QMWUs&sid=6b2f4e6ac9b1d2f0&type=grpc&serviceName=grpc#Auto-14
-
-vless://dd791658-0c7b-461d-af78-226e5c971935@79.174.93.133:22?encryption=none&security=reality&sni=ads.x5.ru&fp=randomized&pbk=J5ITJbg5FQFembAfkogKHHQB6DigsFXQxK7xu-QMWUs&sid=6b2f4e6ac9b1d2f0&type=grpc&serviceName=grpc#Auto-15
-
-vless://dd791658-0c7b-461d-af78-226e5c971935@79.174.92.203:22?encryption=none&security=reality&sni=ads.x5.ru&fp=randomized&pbk=J5ITJbg5FQFembAfkogKHHQB6DigsFXQxK7xu-QMWUs&sid=6b2f4e6ac9b1d2f0&type=grpc&serviceName=grpc#Auto-16
+trojan://sHNhd-NqwDMxdMKymMCxrdEXHxjL64db@188.68.218.37:8443?security=tls&type=tcp&sni=upp.federal-usa.com&alpn=h2%2Chttp%2F1.1&fp=randomized#Auto-8
