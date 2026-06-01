@@ -24,4 +24,4 @@ trojan://sHNhd-NqwDMxdMKymMCxrdEXHxjL64db@109.120.190.146:8443?security=tls&type
 trojan://sHNhd-NqwDMxdMKymMCxrdEXHxjL64db@109.120.190.132:7443?security=tls&type=tcp&sni=plone.rushtaxi.ru&alpn=h2%2Chttp%2F1.1&fp=qq#🇵🇱Польша42-1
 vless://bf04aa11-6430-4921-a006-8def771f72b4@62.152.60.52:443?type=grpc&mode=gun&serviceName=grpc&security=none#🇩🇪Git Ghost62
 trojan://sHNhd-NqwDMxdMKymMCxrdEXHxjL64db@37.9.4.138:8443?security=tls&type=tcp&sni=speed.overload.ovh&alpn=h2%2Chttp%2F1.1&fp=qq#🇩🇪Германия39
-trojan://sHNhd-NqwDMxdMKymMCxrdEXHxjL64db@188.68.218.37:8443?type=tcp&headerType=none&security=tls&sni=upp.federal-usa.com&alpn=h2,http/1.1&fp=randomized&allowInsecure=0#Auto-8
+trojan://sHNhd-NqwDMxdMKymMCxrdEXHxjL64db@188.68.218.37:8443?type=tcp&headerType=none&security=tls&sni=upp.federal-usa.com&alpn=h2,http/1.1&fp=randomized&allowInsecure=0#Auto-8Over
