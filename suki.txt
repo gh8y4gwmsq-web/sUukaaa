@@ -4,18 +4,10 @@
 #support-url: https://t.me/m12ar34at
 #profile-web-page-url: https://t.me/m12ar34at
 #subscription-userinfo: upload=0; download=0; total=0; expire=0
-vless://35386173-5f2e-4c4d-acfc-013582de2e5b@45.95.202.113:37505?encryption=none&type=tcp&headerType=http&host=m.vk.com&path=/&security=none#SuetaWF
-vless://35386173-5f2e-4c4d-acfc-013582de2e5b@45.95.202.113:37505?encryption=none&type=tcp&headerType=http&host=lk.megafon.ru/wp/nomoney/topup&path=/&security=none#SuetaMegaWF
-trojan://sHNhd-NqwDMxdMKymMCxrdEXHxjL64db@185.91.54.224:7443?security=tls&sni=pltwo.rushtaxi.ru&fp=qq&alpn=h2,http/1.1&type=tcp#Польша44
-trojan://sHNhd-NqwDMxdMKymMCxrdEXHxjL64db@109.120.191.129:8443?security=tls&sni=pltwo.rushtaxi.ru&fp=qq&alpn=h2,http/1.1&type=tcp#Польша43
-vless://d7903de5-4954-4012-80de-f501676dfb20@178.248.238.95:5443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=rutube.ru&fp=edge&pbk=B8ekmOgk9QTnXJJOR_4lDSUapa7PZvV2E37l1Nm4lxk&sid=f497fe3dff69ff78&type=tcp#Riba💧
-vless://dd791658-0c7b-461d-af78-226e5c971935@78.159.250.173:8090?type=xhttp&security=reality&pbk=lCwVDvngXM3kLz86XpOJmZ46coOVaV7Kl7vB7cCPeQI&sni=iv.kommersant.ru&sid=a20d3ed244c76426&fp=qq&path=%2F&mode=auto#🇩🇪Германия11
-vless://81775887-0542-4b92-ac70-da738c8bd1fb@46.254.16.186:8443?type=tcp&security=reality&pbk=zPFJM8FCoqGZwSpDi7xDGQBrcJoqeVLAZo4a4Yi2g1k&sni=rutube.ru&sid=5a7517a8&fp=qq&flow=xtls-rprx-vision#🇨🇿💎Weq 1 auto
-vless://81775887-0542-4b92-ac70-da738c8bd1fb@lte20.wequ.host:3443?type=grpc&security=reality&sni=ads.x5.ru&pbk=jvX1xoClZDlpV2jEegsfjoWQOBHP1aoZtox79joxLQQ&sid=4f2b58f3&fp=qq&serviceName=sync#🇱🇻💎20-2weq
-vless://86d3cbda-48ff-49a5-8bf8-cddb9a74040f@62.152.56.204:7443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=qq&sni=ads.x5.ru&pbk=gY-1Ffw9p_GnZEQ7TGLmx3JgSiWcqVV_JCJorzAn-SI&sid=0f4e38178b985c20#🇳🇱deadcdl
-vless://e6d21bed-d66a-4957-a08f-2addc800e84b@185.141.227.210:5444?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=firefox&sni=max.ru&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc#🇪🇺🦊 furk)
-trojan://vpn@147.45.134.186:2025?type=ws&host=m.vk.com&path=/&security=none#🇳🇱Netherlands1WF
-trojan://sHNhd-NqwDMxdMKymMCxrdEXHxjL64db@109.120.190.146:8443?security=tls&type=tcp&sni=pl.serverstats.ru&alpn=h2%2Chttp%2F1.1&fp=qq#🇵🇱Польша42-2
-trojan://sHNhd-NqwDMxdMKymMCxrdEXHxjL64db@109.120.190.132:7443?security=tls&type=tcp&sni=plone.rushtaxi.ru&alpn=h2%2Chttp%2F1.1&fp=qq#🇵🇱Польша42-1
-trojan://sHNhd-NqwDMxdMKymMCxrdEXHxjL64db@37.9.4.138:8443?security=tls&type=tcp&sni=speed.overload.ovh&alpn=h2%2Chttp%2F1.1&fp=qq#🇩🇪Германия39
-trojan://sHNhd-NqwDMxdMKymMCxrdEXHxjL64db@188.68.218.37:8443?type=tcp&headerType=none&security=tls&sni=upp.federal-usa.com&alpn=h2,http/1.1&fp=randomized&allowInsecure=0#Auto-8Over
+vless://6779d690-d4bd-4769-b2f3-18daa6ce8748@72.57.78.10:443?type=tcp&security=reality&pbk=F93t35IvBnGGbOILFPGcegVz_OWoJ3T6nf5S4cFOtGk&fp=ios&sni=omoda-c5.mycdn-me.ru&sid=1fdea407109a1750&spx=%2F&flow=xtls-rprx-vision#p1-nl+-LJw3LCjXmv
+
+vless://6779d690-d4bd-4769-b2f3-18daa6ce8748@2.26.135.142:443?type=tcp&security=reality&pbk=_M0MBe7f2r36dqtjltSRSOOBlclR2q7uY3Rje5r_mgY&fp=edge&sni=lada.mycdn-me.ru&sid=39ee6d&spx=%2F&flow=xtls-rprx-vision#p1-germany-1-7Zz7enxamt
+
+vless://6779d690-d4bd-4769-b2f3-18daa6ce8748@178.248.238.95:2443?type=tcp&security=reality&pbk=B8ekmOgk9QTnXJJOR_4lDSUapa7PZvV2E37l1Nm4lxk&fp=edge&sni=rutube.ru&sid=f497fe3dff69ff78&spx=%2F&flow=xtls-rprx-vision#tier3-cu2-JQJ4aew4WB
+
+vless://6779d690-d4bd-4769-b2f3-18daa6ce8748@178.248.238.95:2443?type=tcp&security=reality&pbk=B8ekmOgk9QTnXJJOR_4lDSUapa7PZvV2E37l1Nm4lxk&fp=safari&sni=ads.x5.ru&sid=f497fe3dff69ff78&spx=%2F&flow=xtls-rprx-vision#tier3-mt-GM4JeIUSv2
