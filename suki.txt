@@ -31,4 +31,4 @@ vless://54ec757e-a775-46a4-8116-d89643aedfc4@s79808.cdn.ngenix.net:443?type=http
 vless://81775887-0542-4b92-ac70-da738c8bd1fb@91.218.231.77:8443?type=tcp&security=reality&pbk=G32LMxR1YPLvXDkuu3uMUISFF5hxLiVV2Hv0mPQqlG0&fp=qq&sni=rutube.ru&sid=1eabae8c&flow=xtls-rprx-vision#WeQ7
 vless://81775887-0542-4b92-ac70-da738c8bd1fb@5.178.85.14:8443?type=tcp&security=reality&pbk=gs88-JmTxIs3oYLsgjAdpld721AydgRbcs_VEipIXSo&fp=qq&sni=rutube.ru&sid=f5cc8594&flow=xtls-rprx-vision#Weq25-1
 vless://67b65b3f-e406-4966-954b-e230cc35a206@193.33.133.125:443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=qq&sni=eh.vk.com&pbk=gXEiEDRuUfppd2FV9R8VPke37inaHm3d7w01nT0iYiw&sid=deadaa11&spx=/#Rus1
-vless://444b1cdd-78aa-45e6-b78e-3f49832919f4@81.200.151.140:443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=firefox&sni=yandex.ru&pbk=ZEPy7eQb_Ti0_fv1rYkz2TelU3Yz88vAQXExRr0KiR8&sid=e49e86ac956f5de9#🇱🇹Git1
+vless://444b1cdd-78aa-45e6-b78e-3f49832919f4@81.200.151.140:443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=firefox&sni=yandex.ru&pbk=ZEPy7eQb_Ti0_fv1rYkz2TelU3Yz88vAQXExRr0KiR8&sid=e49e86ac956f5de9#🇱🇹Git12
