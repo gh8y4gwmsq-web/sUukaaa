@@ -4,27 +4,8 @@
 #support-url: https://t.me/m12ar34at
 #profile-web-page-url: https://t.me/m12ar34at
 #subscription-userinfo: upload=0; download=0; total=0; expire=0
-vless://4e33dc5a-dd41-490a-b283-f28bc57e7123@31.31.197.81:18947?type=xhttp&host=&path=/&mode=packet-up&security=reality&fp=qq&sni=ads.x5.ru&pbk=EBISh6QAVskJ_nvet-Qio9jS2yqxe9de6GMScYlbjhI&sid=226509f017e4c36d#%F0%9F%87%B3%F0%9F%87%B1The%20Netherlands%20%5B*CIDR%5D
-vless://2ce70f60-6145-4730-97e1-a38cb5dd2afc@5.188.114.12:2443?type=ws&security=none#%F0%9F%87%A9%F0%9F%87%AAGermany%20%5B*CIDR%5D
-vless://a87e2b1a-81a9-4e3b-8252-5094d732aef9@62.152.58.114:443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=chrome&sni=wl-13-1.nodes.ac&pbk=jAJoyWJ4nMGai3H9BOa6QMUr2Vvpgqs8VipbaO5mCVU&sid=3130197867c23edb#%F0%9F%87%B3%F0%9F%87%B1Gh0st_WhiteList%20%23144
-vless://a87e2b1a-81a9-4e3b-8252-5094d732aef9@37.9.4.224:443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=chrome&sni=wl-2-1.legendary.ac&pbk=uL4x8EbCl080G43kFlv8nbpEyseWi1Dc_bl8F7lWtm8&sid=aa03ec59c9695e91#%F0%9F%87%B3%F0%9F%87%B1Gh0st_WhiteList%20%2310
-vless://bf04aa11-6430-4921-a006-8def771f72b4@62.152.60.52:443?type=grpc&mode=gun&serviceName=grpc&security=none#%F0%9F%87%A9%F0%9F%87%AAGh0st_WhiteList%20%2363
-vless://bf04aa11-6430-4921-a006-8def771f72b4@62.152.58.99:443?type=grpc&mode=gun&serviceName=grpc&security=none#%F0%9F%87%AB%F0%9F%87%AEGh0st_WhiteList%20%23137
-vless://a87e2b1a-81a9-4e3b-8252-5094d732aef9@84.201.130.25:443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=chrome&sni=wl-5-2.nodes.ac&pbk=e0Mb11d4CAtw89qrvJ59Lu0rfplLy6xLh2tbsKoN2UM&sid=7c05417ed86af034#%F0%9F%87%B3%F0%9F%87%B1Gh0st_WhiteList%20%23156
-vless://dd791658-0c7b-461d-af78-226e5c971935@178.250.243.231:8443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=ads.x5.ru&fp=qq&pbk=lCwVDvngXM3kLz86XpOJmZ46coOVaV7Kl7vB7cCPeQI&sid=a20d3ed244c76426&type=tcp#Auto-1
-
-vless://dd791658-0c7b-461d-af78-226e5c971935@5.188.115.58:7443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=ads.x5.ru&fp=randomized&pbk=J5ITJbg5FQFembAfkogKHHQB6DigsFXQxK7xu-QMWUs&sid=a20d3ed244c76426&type=tcp#Auto-1
-
-trojan://sHNhd-NqwDMxdMKymMCxrdEXHxjL64db@37.9.4.44:8443?security=tls&type=tcp&sni=upp.federal-usa.com&alpn=h2%2Chttp%2F1.1&fp=randomized#Auto-2
-
-trojan://sHNhd-NqwDMxdMKymMCxrdEXHxjL64db@5.188.115.32:8443?security=tls&type=tcp&sni=upp.federal-usa.com&alpn=h2%2Chttp%2F1.1&fp=randomized#Auto-3
-
-trojan://sHNhd-NqwDMxdMKymMCxrdEXHxjL64db@5.188.115.81:8443?security=tls&type=tcp&sni=upp.federal-usa.com&alpn=h2%2Chttp%2F1.1&fp=randomized#Auto-4
-
-trojan://sHNhd-NqwDMxdMKymMCxrdEXHxjL64db@5.188.115.64:8443?security=tls&type=tcp&sni=upp.federal-usa.com&alpn=h2%2Chttp%2F1.1&fp=randomized#Auto-5
-
-trojan://sHNhd-NqwDMxdMKymMCxrdEXHxjL64db@5.188.115.162:8443?security=tls&type=tcp&sni=upp.federal-usa.com&alpn=h2%2Chttp%2F1.1&fp=randomized#Auto-6
-
-trojan://sHNhd-NqwDMxdMKymMCxrdEXHxjL64db@5.188.115.228:8443?security=tls&type=tcp&sni=upp.federal-usa.com&alpn=h2%2Chttp%2F1.1&fp=randomized#Auto-7
-
-trojan://sHNhd-NqwDMxdMKymMCxrdEXHxjL64db@188.68.218.37:8443?security=tls&type=tcp&sni=upp.federal-usa.com&alpn=h2%2Chttp%2F1.1&fp=randomized#Auto-8
+vless://075ad76c-c0ab-4f65-a3bf-4f5983d02736@2.26.129.12:8443?type=tcp&security=reality&pbk=7_Te1H-zq09cyJ87OeysGRZuWm5-NfvsTwDCGUbiZyU&fp=ios&sni=vaz.mycdn-me.ru&sid=b4a91f0c6d8e2359&spx=%2F&flow=xtls-rprx-vision&encryption=none#Щука_1
+vless://075ad76c-c0ab-4f65-a3bf-4f5983d02736@2.26.135.140:443?type=tcp&security=reality&pbk=_M0MBe7f2r36dqtjltSRSOOBlclR2q7uY3Rje5r_mgY&fp=edge&sni=lada.mycdn-me.ru&sid=73&spx=%2F&flow=xtls-rprx-vision&encryption=none#Щука_2
+hysteria2://075ad76c-c0ab-4f65-a3bf-4f5983d02736@46.243.142.227:4443?sni=mycdn-me.ru&alpn=h3&insecure=0#Щука_3
+vless://075ad76c-c0ab-4f65-a3bf-4f5983d02736@178.248.235.73:6443?type=tcp&security=reality&pbk=0m8oeum44_fXLmKEizAkB_c2w21AXHMTbpqWt2CXCyg&fp=edge&sni=rutube.ru&sid=f497fe3dff69ff&spx=%2F&flow=xtls-rprx-vision&encryption=none#Щука_4
+vless://075ad76c-c0ab-4f65-a3bf-4f5983d02736@178.248.235.73:6443?type=tcp&security=reality&pbk=0m8oeum44_fXLmKEizAkB_c2w21AXHMTbpqWt2CXCyg&fp=safari&sni=rutube.ru&sid=f469ff78&spx=%2F&flow=xtls-rprx-vision&encryption=none#Щука_5
