@@ -4,8 +4,8 @@
 #support-url: https://t.me/m12ar34at
 #profile-web-page-url: https://t.me/m12ar34at
 #subscription-userinfo: upload=0; download=0; total=0; expire=0
-vless://075ad76c-c0ab-4f65-a3bf-4f5983d02736@2.26.129.12:8443?type=tcp&security=reality&pbk=7_Te1H-zq09cyJ87OeysGRZuWm5-NfvsTwDCGUbiZyU&fp=ios&sni=vaz.mycdn-me.ru&sid=b4a91f0c6d8e2359&spx=%2F&flow=xtls-rprx-vision&encryption=none#Щука_1
-vless://075ad76c-c0ab-4f65-a3bf-4f5983d02736@2.26.135.140:443?type=tcp&security=reality&pbk=_M0MBe7f2r36dqtjltSRSOOBlclR2q7uY3Rje5r_mgY&fp=edge&sni=lada.mycdn-me.ru&sid=73&spx=%2F&flow=xtls-rprx-vision&encryption=none#Щука_2
-hysteria2://075ad76c-c0ab-4f65-a3bf-4f5983d02736@46.243.142.227:4443?sni=mycdn-me.ru&alpn=h3&insecure=0#Щука_3
-vless://075ad76c-c0ab-4f65-a3bf-4f5983d02736@178.248.235.73:6443?type=tcp&security=reality&pbk=0m8oeum44_fXLmKEizAkB_c2w21AXHMTbpqWt2CXCyg&fp=edge&sni=rutube.ru&sid=f497fe3dff69ff&spx=%2F&flow=xtls-rprx-vision&encryption=none#Щука_4
-vless://075ad76c-c0ab-4f65-a3bf-4f5983d02736@178.248.235.73:6443?type=tcp&security=reality&pbk=0m8oeum44_fXLmKEizAkB_c2w21AXHMTbpqWt2CXCyg&fp=safari&sni=rutube.ru&sid=f469ff78&spx=%2F&flow=xtls-rprx-vision&encryption=none#Щука_5
+vless://075ad76c-c0ab-4f65-a3bf-4f5983d02736@2.26.135.161:443?type=tcp&security=reality&pbk=_M0MBe7f2r36dqtjltSRSOOBlclR2q7uY3Rje5r_mgY&fp=randomized&sni=magenta.mycdn-me.ru&sid=73&spx=%2F&flow=xtls-rprx-vision&encryption=none#Щука_9
+hysteria2://075ad76c-c0ab-4f65-a3bf-4f5983d02736@2.26.129.46:4443?sni=finiki.mycdn-me.ru&alpn=h3&insecure=0#Щука_10
+hysteria2://075ad76c-c0ab-4f65-a3bf-4f5983d02736@46.243.142.227:4443?sni=mycdn-me.ru&alpn=h3&insecure=0#Щука_11
+vless://075ad76c-c0ab-4f65-a3bf-4f5983d02736@178.248.235.73:6443?type=tcp&security=reality&pbk=0m8oeum44_fXLmKEizAkB_c2w21AXHMTbpqWt2CXCyg&fp=randomized&sni=rutube.ru&sid=f497fe3dff69ff&spx=%2F&flow=xtls-rprx-vision&encryption=none#Щука_12
+vless://075ad76c-c0ab-4f65-a3bf-4f5983d02736@178.248.235.73:6443?type=tcp&security=reality&pbk=0m8oeum44_fXLmKEizAkB_c2w21AXHMTbpqWt2CXCyg&fp=randomized&sni=rutube.ru&sid=f497fe3dff69ff&spx=%2F&flow=xtls-rprx-vision&encryption=none#Щука_13
