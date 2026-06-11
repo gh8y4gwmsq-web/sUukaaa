@@ -8,4 +8,4 @@ vless://075ad76c-c0ab-4f65-a3bf-4f5983d02736@2.26.135.161:443?type=tcp&security=
 hysteria2://075ad76c-c0ab-4f65-a3bf-4f5983d02736@2.26.129.46:4443?sni=finiki.mycdn-me.ru&alpn=h3&insecure=0#Щука_10
 hysteria2://075ad76c-c0ab-4f65-a3bf-4f5983d02736@46.243.142.227:4443?sni=mycdn-me.ru&alpn=h3&insecure=0#Щука_11
 vless://075ad76c-c0ab-4f65-a3bf-4f5983d02736@178.248.235.73:6443?type=tcp&security=reality&pbk=0m8oeum44_fXLmKEizAkB_c2w21AXHMTbpqWt2CXCyg&fp=randomized&sni=rutube.ru&sid=f497fe3dff69ff&spx=%2F&flow=xtls-rprx-vision&encryption=none#Щука_12
-vless://075ad76c-c0ab-4f65-a3bf-4f5983d02736@178.248.235.73:6443?type=tcp&security=reality&pbk=0m8oeum44_fXLmKEizAkB_c2w21AXHMTbpqWt2CXCyg&fp=randomized&sni=rutube.ru&sid=f497fe3dff69ff&spx=%2F&flow=xtls-rprx-vision&encryption=none#Щука_13
+vless://075ad76c-c0ab-4f65-a3bf-4f5983d02736@178.248.235.73:6443?type=tcp&security=reality&pbk=0m8oeum44_fXLmKEizAkB_c2w21AXHMTbpqWt2CXCyg&fp=randomized&sni=rutube.ru&sid=f497fe3dff69ff&spx=%2F&flow=xtls-rprx-vision&encryption=none#Щука_113
