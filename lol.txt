@@ -4,8 +4,6 @@
 #support-url: https://t.me/m12ar34at
 #profile-web-page-url: https://t.me/m12ar34at
 #subscription-userinfo: upload=0; download=0; total=0; expire=0
-vless://075ad76c-c0ab-4f65-a3bf-4f5983d02736@2.26.135.161:443?type=tcp&security=reality&pbk=_M0MBe7f2r36dqtjltSRSOOBlclR2q7uY3Rje5r_mgY&fp=randomized&sni=magenta.mycdn-me.ru&sid=73&spx=%2F&flow=xtls-rprx-vision&encryption=none#Щука_9
-hysteria2://075ad76c-c0ab-4f65-a3bf-4f5983d02736@2.26.129.46:4443?sni=finiki.mycdn-me.ru&alpn=h3&insecure=0#Щука_10
-hysteria2://075ad76c-c0ab-4f65-a3bf-4f5983d02736@46.243.142.227:4443?sni=mycdn-me.ru&alpn=h3&insecure=0#Щука_11
-vless://075ad76c-c0ab-4f65-a3bf-4f5983d02736@178.248.235.73:6443?type=tcp&security=reality&pbk=0m8oeum44_fXLmKEizAkB_c2w21AXHMTbpqWt2CXCyg&fp=randomized&sni=rutube.ru&sid=f497fe3dff69ff&spx=%2F&flow=xtls-rprx-vision&encryption=none#Щука_12
-vless://075ad76c-c0ab-4f65-a3bf-4f5983d02736@178.248.235.73:6443?type=tcp&security=reality&pbk=0m8oeum44_fXLmKEizAkB_c2w21AXHMTbpqWt2CXCyg&fp=randomized&sni=rutube.ru&sid=f497fe3dff69ff&spx=%2F&flow=xtls-rprx-vision&encryption=none#Щука_113
+vless://075ad76c-c0ab-4f65-a3bf-4f5983d02736@2.26.135.183:443?flow=xtls-rprx-vision&type=tcp&security=reality&fp=qq&sni=kube.mycdn-me.ru&pbk=KkTAA_TXeU_S4DlQVtJ-UytL255UT6ATutdNYBlnHXc&sid=a3f9c0e21d7b6485&spx=%2F#Щука_1
+vless://075ad76c-c0ab-4f65-a3bf-4f5983d02736@2.26.129.15:443?flow=xtls-rprx-vision&type=tcp&security=reality&fp=qq&sni=edger.mycdn-me.ru&pbk=JGyZovSYdKnbav7ah3ZM-nG4H2BLoCbGd9tmHDBIzz4&sid=5c8e1a04f3d92b67&spx=%2F#Щука_2
+vless://075ad76c-c0ab-4f65-a3bf-4f5983d02736@46.243.142.227:6443?flow=xtls-rprx-vision&type=tcp&security=reality&fp=qq&sni=ads.x5.ru&pbk=B8ekmOgk9QTnXJJOR_4lDSUapa7PZvV2E37l1Nm4lxk&sid=f497fe3dff69ff78&spx=%2F#Щука_3
