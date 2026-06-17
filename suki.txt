@@ -6,14 +6,9 @@
 #subscription-userinfo: upload=0; download=0; total=0; expire=0
 vless://35386173-5f2e-4c4d-acfc-013582de2e5b@45.95.202.113:37505?encryption=none&type=tcp&headerType=http&host=m.vk.com&path=/&security=none#SuetaWF
 vless://35386173-5f2e-4c4d-acfc-013582de2e5b@45.95.202.113:37505?encryption=none&type=tcp&headerType=http&host=lk.megafon.ru/wp/nomoney/topup&path=/&security=none#SuetaMegaWF
-trojan://sHNhd-NqwDMxdMKymMCxrdEXHxjL64db@185.91.54.224:7443?security=tls&sni=pltwo.rushtaxi.ru&fp=qq&alpn=h2,http/1.1&type=tcp#Польша44
-trojan://sHNhd-NqwDMxdMKymMCxrdEXHxjL64db@109.120.191.129:8443?security=tls&sni=pltwo.rushtaxi.ru&fp=qq&alpn=h2,http/1.1&type=tcp#Польша43
-vless://J5ITJbg5FQFembAfkogKHHQB6DigsFXQxK7xu-QMWUs@78.159.250.173:8090?type=xhttp&security=reality&pbk=lCwVDvngXM3kLz86XpOJmZ46coOVaV7Kl7vB7cCPeQI&sni=iv.kommersant.ru&sid=a20d3ed244c76426&fp=qq&path=%2F&mode=auto#🇩🇪Германия11
 vless://81775887-0542-4b92-ac70-da738c8bd1fb@46.254.16.186:8443?type=tcp&security=reality&pbk=zPFJM8FCoqGZwSpDi7xDGQBrcJoqeVLAZo4a4Yi2g1k&sni=rutube.ru&sid=5a7517a8&fp=qq&flow=xtls-rprx-vision#🇨🇿💎Weq 1 auto
 vless://81775887-0542-4b92-ac70-da738c8bd1fb@lte20.wequ.host:3443?type=grpc&security=reality&sni=ads.x5.ru&pbk=jvX1xoClZDlpV2jEegsfjoWQOBHP1aoZtox79joxLQQ&sid=4f2b58f3&fp=qq&serviceName=sync#🇱🇻💎20-2weq
 trojan://vpn@147.45.134.186:2025?type=ws&host=m.vk.com&path=/&security=none#🇳🇱Netherlands1WF
-trojan://sHNhd-NqwDMxdMKymMCxrdEXHxjL64db@109.120.190.146:8443?security=tls&type=tcp&sni=pl.serverstats.ru&alpn=h2%2Chttp%2F1.1&fp=qq#🇵🇱Польша42-2
-trojan://sHNhd-NqwDMxdMKymMCxrdEXHxjL64db@109.120.190.132:7443?security=tls&type=tcp&sni=plone.rushtaxi.ru&alpn=h2%2Chttp%2F1.1&fp=qq#🇵🇱Польша42-1
 trojan://sEqwz7q2opdubFa7Ybg0Bo7CPN2pkm8P@37.9.4.138:8443?security=tls&type=tcp&sni=speed.overload.ovh&alpn=h2%2Chttp%2F1.1&fp=qq#🇩🇪Германия39
 trojan://sEqwz7q2opdubFa7Ybg0Bo7CPN2pkm8P@188.68.218.37:8443?type=tcp&headerType=none&security=tls&sni=upp.federal-usa.com&alpn=h2,http/1.1&fp=randomized&allowInsecure=0#Auto-8Over
 trojan://sEqwz7q2opdubFa7Ybg0Bo7CPN2pkm8P@5.188.115.131:8443?security=tls&sni=magic.speedload.ru&fp=randomized&type=tcp#Moscow38
@@ -26,4 +21,5 @@ vless://81775887-0542-4b92-ac70-da738c8bd1fb@5.178.85.14:8443?type=tcp&security=
 vless://67b65b3f-e406-4966-954b-e230cc35a206@193.33.133.188:443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=chrome&sni=eh.vk.com&pbk=gXEiEDRuUfppd2FV9R8VPke37inaHm3d7w01nT0iYiw&sid=ba987654&spx=/#Rus2
 vless://075ad76c-c0ab-4f65-a3bf-4f5983d02736@46.243.142.227:6443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=qq&sni=ads.x5.ru&pbk=B8ekmOgk9QTnXJJOR_4lDSUapa7PZvV2E37l1Nm4lxk&sid=f497fe3dff69ff78&spx=/#RIBA1
 vless://07180fa5-3dcb-42ce-9121-1062e5e2a1b9@91.109.201.102:443?type=grpc&serviceName=grpc&security=reality&fp=qq&sni=5post-gate.x5.ru&pbk=ivgTfLR13A6xBsicIA28OPoav2tXlsstTTmGuETfnSk&sid=5c766813929a1fdd&encryption=none#GraNit1
+trojan://sEqwz7q2opdubFa7Ybg0Bo7CPN2pkm8P@109.120.191.129:8443?security=tls&type=tcp&sni=onerecord.speedload.ru&fp=firefox#Польша43
 
