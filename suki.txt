@@ -1,6 +1,6 @@
-#profile-title: Maraa
+#profile-title: SuetaMarata
 #profile-update-interval: 1
-#announce: Не работает, напиши мне!!
+#announce: Не работает, обнови подписку🔄, проверь пинг 🕚
 #support-url: https://t.me/m12ar34at
 #profile-web-page-url: https://t.me/m12ar34at
 #subscription-userinfo: upload=0; download=0; total=0; expire=0
