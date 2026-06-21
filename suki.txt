@@ -21,5 +21,6 @@ vless://b1392b06-b169-4f1a-a6c7-d5a613067449@185.141.227.153:10443?encryption=no
 vless://31927fba-8787-4fe3-ae7d-c5520c5fb756@46.243.142.32:6443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=qq&sni=ads.x5.ru&pbk=X3ukS8lu3cNsbazVqxhD7yoRNfofmLqb0LzOKcMAyTs&sid=1497fe3dff69ff78&spx=/#Riba1
 vless://31927fba-8787-4fe3-ae7d-c5520c5fb756@178.248.235.173:31443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=qq&sni=rutube.ru&pbk=PmezavnEpH4TEbt8A4qlrESwZ0qJJ2X0_RHKu9Bqe1g&sid=11c8a9e2d47b03af&spx=/#Riba2
 vless://86d3cbda-48ff-49a5-8bf8-cddb9a74040f@62.152.58.98:4443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=qq&sni=api-maps.yandex.ru&pbk=tya4DcpvPQGX-uqI_5rtracOiRxX2fwxj_R7D_b7nyI&sid=be764f2de39f4a63#%F0%9F%87%B3%F0%9F%87%B1DeadCDL
+trojan://sEqwz7q2opdubFa7Ybg0Bo7CPN2pkm8P@62.152.59.194:8443?type=tcp&security=tls&fp=firefox&sni=plreverse.fastload.site&alpn=h2,http/1.1#Netherlands48
 
 
