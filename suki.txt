@@ -1,8 +1,8 @@
 #profile-title: Sueta
 #profile-update-interval: 4
 #announce: Не работает - обнови подписку🔄 - проверь пинг 🕒
-#support-url: https://t.me/m12ar34at
-#profile-web-page-url: https://t.me/m12ar34at
+#support-url: https://t.me/SuetaVpna
+#profile-web-page-url: https://t.me/SuetaVpna
 #subscription-userinfo: upload=0; download=0; total=0; expire=0
 vless://35386173-5f2e-4c4d-acfc-013582de2e5b@45.95.202.113:37505?encryption=none&type=tcp&headerType=http&host=m.vk.com&path=/&security=none#SuetaWF
 trojan://sEqwz7q2opdubFa7Ybg0Bo7CPN2pkm8P@109.120.191.129:8443?security=tls&type=tcp&sni=onerecord.speedload.ru&fp=firefox#Польша43
@@ -18,9 +18,9 @@ vless://81775887-0542-4b92-ac70-da738c8bd1fb@91.218.231.77:8443?type=tcp&securit
 vless://81775887-0542-4b92-ac70-da738c8bd1fb@5.178.85.14:8443?type=tcp&security=reality&pbk=gs88-JmTxIs3oYLsgjAdpld721AydgRbcs_VEipIXSo&fp=qq&sni=rutube.ru&sid=f5cc8594&flow=xtls-rprx-vision#Weq25-1
 vless://67b65b3f-e406-4966-954b-e230cc35a206@193.33.133.188:443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=chrome&sni=eh.vk.com&pbk=gXEiEDRuUfppd2FV9R8VPke37inaHm3d7w01nT0iYiw&sid=ba987654&spx=/#Rus2
 vless://07180fa5-3dcb-42ce-9121-1062e5e2a1b9@91.109.201.102:443?type=grpc&serviceName=grpc&security=reality&fp=qq&sni=5post-gate.x5.ru&pbk=ivgTfLR13A6xBsicIA28OPoav2tXlsstTTmGuETfnSk&sid=5c766813929a1fdd&encryption=none#GraNit1
-vless://86d3cbda-48ff-49a5-8bf8-cddb9a74040f@cdn2.snichvpn.ru:7443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=qq&sni=yandex.ru&pbk=ybXG335_U1KbYYvyEFxzygabMKmf_X1D41sId5cZYnE&sid=8392eea565a00063#%F0%9F%87%A9%F0%9F%87%AADeadCDL
 vless://b1392b06-b169-4f1a-a6c7-d5a613067449@185.141.227.153:10443?encryption=none&flow=&type=grpc&mode=gun&serviceName=&authority=&security=reality&fp=chrome&sni=max.ru&pbk=KONaLFa2_5efdUtXz0TDfj8DZf65Lqli1935Mr36DnU#S%D1%83NatBez
 vless://31927fba-8787-4fe3-ae7d-c5520c5fb756@46.243.142.32:6443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=qq&sni=ads.x5.ru&pbk=X3ukS8lu3cNsbazVqxhD7yoRNfofmLqb0LzOKcMAyTs&sid=1497fe3dff69ff78&spx=/#Riba1
 vless://31927fba-8787-4fe3-ae7d-c5520c5fb756@178.248.235.173:31443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=qq&sni=rutube.ru&pbk=PmezavnEpH4TEbt8A4qlrESwZ0qJJ2X0_RHKu9Bqe1g&sid=11c8a9e2d47b03af&spx=/#Riba2
+vless://86d3cbda-48ff-49a5-8bf8-cddb9a74040f@62.152.58.98:4443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=qq&sni=api-maps.yandex.ru&pbk=tya4DcpvPQGX-uqI_5rtracOiRxX2fwxj_R7D_b7nyI&sid=be764f2de39f4a63#%F0%9F%87%B3%F0%9F%87%B1DeadCDL
 
 
