@@ -1,6 +1,6 @@
 #profile-title: Sueta
 #profile-update-interval: 4
-#announce: Не работает - обнови подписку🔄 - проверь пинг 🕒
+#announce: обнови подписку🔄 - проверь пинг 🕒
 #support-url: https://t.me/SuetaVpna
 #profile-web-page-url: https://t.me/SuetaVpna
 #subscription-userinfo: upload=0; download=0; total=0; expire=0
