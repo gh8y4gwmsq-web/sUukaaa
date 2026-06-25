@@ -9,7 +9,7 @@ trojan://sEqwz7q2opdubFa7Ybg0Bo7CPN2pkm8P@109.120.191.129:8443?security=tls&type
 vless://35386173-5f2e-4c4d-acfc-013582de2e5b@45.95.202.113:37505?encryption=none&type=tcp&headerType=http&host=lk.megafon.ru/wp/nomoney/topup&path=/&security=none#SuetaMegaWF
 trojan://sEqwz7q2opdubFa7Ybg0Bo7CPN2pkm8P@5.188.115.131:8443?security=tls&sni=magic.speedload.ru&fp=randomized&type=tcp#Moscow38
 vless://3f0a5d80-1a82-442d-ac9a-24ff64aaac9b@84.201.130.69:443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=firefox&sni=eh.vk.ru&pbk=CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw&sid=abe4a59b9f2407e3#%F0%9F%87%A9%F0%9F%87%AABlack%F0%9F%8C%B9
-vless://3f0a5d80-1a82-442d-ac9a-24ff64aaac9b@95.133.245.195:443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=firefox&sni=cdn3-87.yahoo.com&pbk=CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw&sid=d08bb54b5b94b2fc#%F0%9F%87%B3%F0%9F%87%B1BlackWF
+vless://3f0a5d80-1a82-442d-ac9a-24ff64aaac9b@5.254.72.138:443?encryption=none&flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=firefox&sni=cdn3-70.yahoo.com&pbk=CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw&sid=5784c337fe1cbb05#BlackWF
 vless://81775887-0542-4b92-ac70-da738c8bd1fb@46.254.16.186:8443?type=tcp&security=reality&pbk=zPFJM8FCoqGZwSpDi7xDGQBrcJoqeVLAZo4a4Yi2g1k&sni=rutube.ru&sid=5a7517a8&fp=qq&flow=xtls-rprx-vision#🇨🇿💎Weq 1 auto
 vless://81775887-0542-4b92-ac70-da738c8bd1fb@lte20.wequ.host:3443?type=grpc&security=reality&sni=ads.x5.ru&pbk=jvX1xoClZDlpV2jEegsfjoWQOBHP1aoZtox79joxLQQ&sid=4f2b58f3&fp=qq&serviceName=sync#🇱🇻💎20-2weq
 trojan://sEqwz7q2opdubFa7Ybg0Bo7CPN2pkm8P@37.9.4.138:8443?security=tls&type=tcp&sni=speed.overload.ovh&alpn=h2%2Chttp%2F1.1&fp=qq#🇩🇪Германия39
@@ -20,8 +20,6 @@ vless://07180fa5-3dcb-42ce-9121-1062e5e2a1b9@91.109.201.102:443?type=grpc&servic
 vless://b1392b06-b169-4f1a-a6c7-d5a613067449@185.141.227.153:10443?encryption=none&flow=&type=grpc&mode=gun&serviceName=&authority=&security=reality&fp=chrome&sni=max.ru&pbk=KONaLFa2_5efdUtXz0TDfj8DZf65Lqli1935Mr36DnU#S%D1%83NatBez
 vless://31927fba-8787-4fe3-ae7d-c5520c5fb756@46.243.142.32:6443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=qq&sni=ads.x5.ru&pbk=X3ukS8lu3cNsbazVqxhD7yoRNfofmLqb0LzOKcMAyTs&sid=1497fe3dff69ff78&spx=/#Riba1
 vless://31927fba-8787-4fe3-ae7d-c5520c5fb756@178.248.235.173:31443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=qq&sni=rutube.ru&pbk=PmezavnEpH4TEbt8A4qlrESwZ0qJJ2X0_RHKu9Bqe1g&sid=11c8a9e2d47b03af&spx=/#Riba2
-vless://86d3cbda-48ff-49a5-8bf8-cddb9a74040f@62.152.58.98:4443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=qq&sni=api-maps.yandex.ru&pbk=tya4DcpvPQGX-uqI_5rtracOiRxX2fwxj_R7D_b7nyI&sid=be764f2de39f4a63#%F0%9F%87%B3%F0%9F%87%B1DeadCDL
-vless://86d3cbda-48ff-49a5-8bf8-cddb9a74040f@62.152.56.204:4443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&fp=qq&sni=api-maps.yandex.ru&pbk=tya4DcpvPQGX-uqI_5rtracOiRxX2fwxj_R7D_b7nyI&sid=be764f2de39f4a63#DeadCDL2
 trojan://sEqwz7q2opdubFa7Ybg0Bo7CPN2pkm8P@62.152.59.194:8443?type=tcp&security=tls&fp=firefox&sni=plreverse.fastload.site&alpn=h2,http/1.1#Netherlands48
 vless://8276c9a8-00f9-4b65-97ad-a687669d6e2b@ru-84.monkeyisland.xyz:443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&fp=qq&sni=ads.x5.ru&pbk=LHcascaxOxugVSALgsYx46nB-vuhT7ANOneu0xb6SzQ&sid=3b25133dd9e5c23f#Monkey3
 
