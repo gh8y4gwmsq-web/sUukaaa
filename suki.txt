@@ -22,6 +22,6 @@ vless://31927fba-8787-4fe3-ae7d-c5520c5fb756@46.243.142.32:6443?flow=xtls-rprx-v
 vless://31927fba-8787-4fe3-ae7d-c5520c5fb756@178.248.235.173:31443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=qq&sni=rutube.ru&pbk=PmezavnEpH4TEbt8A4qlrESwZ0qJJ2X0_RHKu9Bqe1g&sid=11c8a9e2d47b03af&spx=/#Riba2
 trojan://sEqwz7q2opdubFa7Ybg0Bo7CPN2pkm8P@62.152.59.194:8443?type=tcp&security=tls&fp=firefox&sni=plreverse.fastload.site&alpn=h2,http/1.1#Netherlands48
 vless://8276c9a8-00f9-4b65-97ad-a687669d6e2b@ru-84.monkeyisland.xyz:443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&fp=qq&sni=ads.x5.ru&pbk=LHcascaxOxugVSALgsYx46nB-vuhT7ANOneu0xb6SzQ&sid=3b25133dd9e5c23f#Monkey3
-vless://3f0a5d80-1a82-442d-ac9a-24ff64aaac9b@188.72.103.3:443?flow=&type=ws&host=ingest.fleetbeat.link&path=/api/v1/devices/f08f8debbb/telemetry&security=tls&sni=cdn.tracker.yandex.net&fp=firefox&allowInsecure=0&echfq=none#%F0%9F%87%B3%F0%9F%87%B1Blanc2
+vless://3f0a5d80-1a82-442d-ac9a-24ff64aaac9b@188.72.103.3:443?flow=&type=ws&host=ingest.fleetbeat.link&path=/api/v1/devices/f08f8debbb/telemetry&security=tls&sni=cdn.tracker.yandex.net&fp=firefox&allowInsecure=0&echfq=none#%F0%9F%87%B3%F0%9F%87%B1Blanc2!
 
 
