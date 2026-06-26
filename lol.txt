@@ -33,3 +33,5 @@ vless://c3e7d821-3731-4082-ab0b-7ac10cfa6664@s22244.cdn.ngenix.net:443?type=ws&s
 vless://c3e7d821-3731-4082-ab0b-7ac10cfa6664@api.rodina-platform.online:2072?type=xhttp&security=reality&fp=firefox&pbk=Ii9Wmi9ozX7Z9Vf3n1xp2lqUw0pmfXVdOXjdLGLMSHs&sni=max.ru&sid=7016808acbb46323&host=max.ru&path=%2F#high-5
 vless://c3e7d821-3731-4082-ab0b-7ac10cfa6664@176.109.88.216:443?type=grpc&security=reality&fp=chrome&pbk=YvhcuqXRqPigT7_rp9vsV5LAdxXHN8eWB_17SchS_S8&sni=5post-gate.x5.ru&serviceName=grpc#high-6
 vless://c3e7d821-3731-4082-ab0b-7ac10cfa6664@176.109.88.216:10443?type=grpc&security=reality&fp=chrome&pbk=WF3RXrggPm9ILy5KS7-N9rfBi7d1rgZAkK4X2Owstlk&sni=5post-gate.x5.ru&serviceName=grpc#high-7
+vless://c3e7d821-3731-4082-ab0b-7ac10cfa6664@api.rodina-platform.online:2072?type=xhttp&security=reality&fp=firefox&pbk=Ii9Wmi9ozX7Z9Vf3n1xp2lqUw0pmfXVdOXjdLGLMSHs&sni=max.ru&sid=7016808acbb46323&host=max.ru&path=%2F&mode=packet-up#proxy
+
