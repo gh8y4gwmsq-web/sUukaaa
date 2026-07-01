@@ -3,7 +3,6 @@
 #announce: обнови подписку🔄 - проверь пинг 🕒
 #support-url: https://t.me/SuetaVpna
 #profile-web-page-url: https://t.me/SuetaVpna
-#subscription-userinfo: upload=0; download=0; total=0; expire=0
 vless://35386173-5f2e-4c4d-acfc-013582de2e5b@45.95.202.113:37505?encryption=none&type=tcp&headerType=http&host=m.vk.com&path=/&security=none#SuetaWF
 trojan://sEqwz7q2opdubFa7Ybg0Bo7CPN2pkm8P@109.120.191.129:8443?security=tls&type=tcp&sni=onerecord.speedload.ru&fp=firefox#Польша43
 vless://35386173-5f2e-4c4d-acfc-013582de2e5b@45.95.202.113:37505?encryption=none&type=tcp&headerType=http&host=lk.megafon.ru/wp/nomoney/topup&path=/&security=none#SuetaMegaWF
@@ -20,7 +19,6 @@ vless://c3e7d821-3731-4082-ab0b-7ac10cfa6664@176.109.88.216:8443?encryption=none
 vless://c3e7d821-3731-4082-ab0b-7ac10cfa6664@api.rodina-platform.online:2072?encryption=none&flow=&type=xhttp&mode=packet-up&host=max.ru&path=/&security=reality&fp=firefox&sni=max.ru&pbk=Ii9Wmi9ozX7Z9Vf3n1xp2lqUw0pmfXVdOXjdLGLMSHs&sid=7016808acbb46323#VPN+2
 vless://5e4f1f52-e438-4eef-a347-f82e83d1fcde@78.159.240.196:8090?encryption=none&flow=&type=xhttp&mode=auto&host=&path=/&security=reality&fp=firefox&sni=iv.kommersant.ru&pbk=lCwVDvngXM3kLz86XpOJmZ46coOVaV7Kl7vB7cCPeQI&sid=a20d3ed244c76426#Moscow16
 vless://5e4f1f52-e438-4eef-a347-f82e83d1fcde@37.18.15.239:8090?encryption=none&flow=&type=xhttp&mode=auto&host=&path=/&security=reality&fp=firefox&sni=iv.kommersant.ru&pbk=lCwVDvngXM3kLz86XpOJmZ46coOVaV7Kl7vB7cCPeQI&sid=a20d3ed244c76426#Moskow12
-vless://c3e7d821-3731-4082-ab0b-7ac10cfa6664@s22244.cdn.ngenix.net:443?encryption=none&type=ws&host=s22244.cdn.ngenix.net&path=/api/v2/estweb&security=tls&fp=chrome&sni=s22244.cdn.ngenix.net#VPN+3
 vless://19a4ed33-c73f-4d73-ab28-d478fca8429c@45.152.113.155:8443?encryption=none&type=tcp&security=reality&fp=qq&sni=www.vk.com&pbk=hOKJ1Zm_GHspM0qZYvk4lzHN8Rcpb1P4qjaKs7cJWj4&sid=8ed8c97a90673736&spx=/#Clowpn
 vless://4c32059f-c6e2-4f02-b78b-71cded7bb25b@5.188.115.218:22611?encryption=none&flow=&type=grpc&mode=gun&serviceName=maps-rpc&authority=&security=reality&fp=chrome&sni=api-maps.yandex.ru&pbk=pB2WMmoWnmXfPnPMzbhA5R03su6TrzM0gAbwvFU6jVo#SynatLim
 vless://634c6633-dec1-4a80-a1d5-b93b9c9ac5e8@109.120.188.54:443?encryption=none&flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=firefox&sni=ads.x5.ru&pbk=4woJiVyGtLro6qRQdUcM2EJDHI3CLOeeE-knmSHk8lE&sid=1ca44564cda56661#WaYEL
