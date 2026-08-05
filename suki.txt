@@ -1,5 +1,6 @@
 #profile-title: Sueta
 #profile-update-interval: 4
+#announce: ШАМИЛОВ ЗОЛОТОЙ ЧЕЛОВЕК
 #support-url: https://t.me/SuetaVpna
 #profile-web-page-url: https://t.me/SuetaVpna
 trojan://odw3o9ZwmQGKdz9szz77z1W8L3GbZsM8@185.91.54.96:8443?security=tls&sni=polyartwo.speedload.ru&alpn=h2,http/1.1&fp=firefox&type=tcp#Польша43
