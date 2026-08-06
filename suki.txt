@@ -25,6 +25,6 @@ vless://81775887-0542-4b92-ac70-da738c8bd1fb@217.16.29.32:7443?flow=xtls-rprx-vi
 vless://775d85d5-29c9-40f0-bc37-b7dd9df6b5f1@78.159.245.6:443?security=reality&sni=iv.kommersant.ru&fp=firefox&pbk=lCwVDvngXM3kLz86XpOJmZ46coOVaV7Kl7vB7cCPeQI&sid=a20d3ed244c76426&type=grpc&serviceName=grpc&encryption=none#Finka46!
 vless://ba37e014-3473-4b70-9619-36749f611476@194.55.239.253:443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=firefox&sni=5post-gate.x5.ru&pbk=WUM20RfuMAXTCTtbN8iqLDfE8FryYaduPl2Je3ul8h0&sid=6604ffafeac2c44e#Moriarty
 vless://12e05835-011f-4c8b-bc05-1b883f0503f2@87.228.101.130:443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=tls&sni=pro-ru-s.emrata.top&alpn=h2&fp=firefox#Monkey1
-vless://12e05835-011f-4c8b-bc05-1b883f0503f2@5.188.115.59:443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=tls&sni=pro-ru-s-5.emrata.top&alpn=h2&fp=firefox#Monkey2
+vless://12e05835-011f-4c8b-bc05-1b883f0503f2@5.188.115.59:443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=tls&sni=pro-ru-s-5.emrata.top&alpn=h2&fp=firefox#Monkey2!
 vless://bf8e6389-e959-4ef6-819a-4ea9eaa6e874@46.254.18.227:8458?flow=&type=xhttp&host=&path=/xh&mode=auto&security=reality&fp=firefox&sni=ads.x5.ru&pbk=mLNQ8cirYSUCtYa5485RnCPzrmp2OfkI0ENmweDxJQc&sid=6ba85179e30d4fc2#%F0%9F%87%AB%F0%9F%87%AEBypass%20%E2%84%961.3
 
