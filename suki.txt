@@ -2,8 +2,8 @@
 #profile-update-interval: 4
 #support-url: https://t.me/SuetaVpna
 #profile-web-page-url: https://t.me/SuetaVpna
-trojan://odw3o9ZwmQGKdz9szz77z1W8L3GbZsM8@185.91.54.96:8443?security=tls&sni=polyartwo.speedload.ru&alpn=h2,http/1.1&fp=firefox&type=tcp#Польша43
-trojan://odw3o9ZwmQGKdz9szz77z1W8L3GbZsM8@5.188.115.64:8443?security=tls&sni=polyarfour.speedload.ru&fp=firefox&alpn=h2,http/1.1&type=tcp#Польша44
+trojan://odw3o9ZwmQGKdz9szz77z1W8L3GbZsM8@37.143.15.28:443?type=tcp&security=tls&sni=polyartwo.speedload.ru&alpn=h2,http/1.1&fp=firefox#Польша43
+trojan://odw3o9ZwmQGKdz9szz77z1W8L3GbZsM8@185.229.9.62:443?type=tcp&headerType=none&security=tls&sni=node205.overgroup.cloud&alpn=h2,http/1.1&fp=firefox#Польша44
 trojan://odw3o9ZwmQGKdz9szz77z1W8L3GbZsM8@glr.rushtaxi.ru:8443?type=tcp&headerType=none&security=tls&sni=node132.overcdn.ru&alpn=http/1.1,h2&fp=firefox#%F0%9F%87%B7%F0%9F%87%BAMoscow38
 trojan://odw3o9ZwmQGKdz9szz77z1W8L3GbZsM8@37.9.4.138:8443?type=tcp&headerType=none&security=tls&sni=webtracker.rushtaxi.ru&alpn=http/1.1,h2&fp=firefox#%F0%9F%87%B7%F0%9F%87%BAMoskow39
 trojan://odw3o9ZwmQGKdz9szz77z1W8L3GbZsM8@185.229.9.254:8443?type=tcp&headerType=none&security=tls&sni=webapi.rushtaxi.ru&alpn=http/1.1,h2&fp=firefox#%F0%9F%87%B7%F0%9F%87%BAMoskow47
