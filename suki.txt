@@ -4,7 +4,7 @@
 #profile-web-page-url: https://t.me/SuetaVpna
 trojan://Sp0Q5SAHx9b0etwPoQU1sYwYJ12JhyRd@37.143.15.28:443?type=tcp&headerType=none&security=tls&sni=polyartwo.speedload.ru&fp=firefox#Польша1
 trojan://Sp0Q5SAHx9b0etwPoQU1sYwYJ12JhyRd@37.143.15.49:443?type=tcp&headerType=none&security=tls&sni=node107.overcdn.ru&fp=firefox#Польша2
-trojan://Sp0Q5SAHx9b0etwPoQU1sYwYJ12JhyRd@158.160.143.11:443?type=tcp&headerType=none&security=tls&sni=de.overgroup.cloud&fp=firefox#Польша3
+vless://97fb756a-646a-4442-9120-4ec25961536b@178.248.236.77:59443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=qq&sni=rutube.ru&pbk=IKz1z0scyrYd-eQD9AcVvmoJDcITPXlKu90guFPrUh4&sid=1f8c1a2e913d1f05&spx=/#Щука
 trojan://Sp0Q5SAHx9b0etwPoQU1sYwYJ12JhyRd@185.229.9.62:443?type=tcp&security=tls&sni=node205.overgroup.cloud&alpn=h2,http/1.1&fp=firefox#Польша4
 trojan://Sp0Q5SAHx9b0etwPoQU1sYwYJ12JhyRd@91.218.230.134:443?type=tcp&security=tls&sni=polyartwo.speedload.ru&alpn=h2,http/1.1&fp=firefox#Польша5
 vless://3f0a5d80-1a82-442d-ac9a-24ff64aaac9b@84.201.130.69:443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=firefox&sni=eh.vk.ru&pbk=CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw&sid=abe4a59b9f2407e3#%F0%9F%87%A9%F0%9F%87%AABlack%F0%9F%8C%B9WF
