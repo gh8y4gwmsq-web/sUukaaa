@@ -1,12 +1,17 @@
+#profile-title: Sueta
+#profile-update-interval: 4
+#support-url: https://t.me/SuetaVpna
+#profile-web-page-url: https://t.me/SuetaVpna
+
 {
   "burstObservatory": {
     "pingConfig": {
       "connectivity": "",
       "destination": "https://www.gstatic.com/generate_204",
       "httpMethod": "GET",
-      "interval": "10s",
-      "sampling": 2,
-      "timeout": "1500ms"
+      "interval": "30s",
+      "sampling": 3,
+      "timeout": "1000ms"
     },
     "subjectSelector": [
       "proxy-01",
