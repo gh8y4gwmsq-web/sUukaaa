@@ -1,6 +1,6 @@
 [
   {
-    "remarks": "AUTO | 14 серверов",
+    "remarks": "AUTO | 14 сервероВ",
     "log": {
       "loglevel": "warning"
     },
@@ -490,15 +490,7 @@
         "tag": "block"
       }
     ],
-    "burstObservatory": {
-      "pingConfig": {
-        "connectivity": "",
-        "destination": "https://www.gstatic.com/generate_204",
-        "httpMethod": "GET",
-        "interval": "10s",
-        "sampling": 2,
-        "timeout": "5s"
-      },
+    "observatory": {
       "subjectSelector": [
         "proxy-1",
         "proxy-2",
@@ -514,7 +506,10 @@
         "proxy-12",
         "proxy-13",
         "proxy-14"
-      ]
+      ],
+      "probeURL": "https://www.gstatic.com/generate_204",
+      "probeInterval": "10s",
+      "enableConcurrency": true
     },
     "routing": {
       "domainMatcher": "hybrid",
@@ -538,17 +533,9 @@
             "proxy-13",
             "proxy-14"
           ],
-          "fallbackTag": "block",
+          "fallbackTag": "proxy-1",
           "strategy": {
-            "type": "leastLoad",
-            "settings": {
-              "baselines": [
-                "1s"
-              ],
-              "expected": 2,
-              "maxRTT": "1s",
-              "tolerance": 60
-            }
+            "type": "leastPing"
           }
         }
       ],
