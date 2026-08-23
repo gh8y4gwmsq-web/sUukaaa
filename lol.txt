@@ -463,11 +463,9 @@
       }
     ],
     "routing": {
-      "domainMatcher": "hybrid",
-      "domainStrategy": "IPIfNonMatch",
       "balancers": [
         {
-          "tag": "Balancer",
+          "fallbackTag": "proxy-01",
           "selector": [
             "proxy-01",
             "proxy-02",
@@ -485,7 +483,6 @@
             "proxy-14"
           ],
           "strategy": {
-            "type": "leastLoad",
             "settings": {
               "baselines": [
                 "1s"
@@ -493,36 +490,180 @@
               "expected": 2,
               "maxRTT": "1s",
               "tolerance": 60
-            }
-          }
+            },
+            "type": "leastLoad"
+          },
+          "tag": "Balancer"
         }
       ],
+      "domainMatcher": "hybrid",
+      "domainStrategy": "IPIfNonMatch",
       "rules": [
         {
-          "type": "field",
           "domain": [
             "geosite:category-ads"
           ],
-          "outboundTag": "block"
+          "outboundTag": "block",
+          "type": "field"
         },
         {
-          "type": "field",
+          "outboundTag": "direct",
           "protocol": [
             "bittorrent"
           ],
-          "outboundTag": "direct"
+          "type": "field"
         },
         {
-          "type": "field",
+          "domain": [
+            "domain:oversub.cloud",
+            "domain:47news.ru",
+            "domain:alfabank.ru",
+            "domain:api.browser.yandex.com",
+            "domain:api.events.plus.yandex.net",
+            "domain:api.photo.2gis.com",
+            "domain:api.premier.one",
+            "domain:api.okko.tv",
+            "domain:api.reviews.2gis.com",
+            "domain:api.s3.yandex.net",
+            "domain:api.uxfeedback.yandex.net",
+            "domain:auth-nsdi.ru",
+            "domain:auth.okko.tv",
+            "domain:auth.premier.one",
+            "domain:auto.ru",
+            "domain:avito.ru",
+            "domain:avito.st",
+            "domain:browser.yandex.com",
+            "domain:cdn.okko.tv",
+            "domain:cdn.premier.one",
+            "domain:cdn-vk.ru",
+            "domain:cdn.s3.yandex.net",
+            "domain:cikrf.ru",
+            "domain:cloud.vk.com",
+            "domain:collections.yandex.com",
+            "domain:catalog.api.2gis.com",
+            "domain:csp.yandex.net",
+            "domain:disk.2gis.com",
+            "domain:dzen.ru",
+            "domain:egress.yandex.net",
+            "domain:eh.vk.com",
+            "domain:favorites.api.2gis.com",
+            "domain:filekeeper-vod.2gis.com",
+            "domain:gazeta.ru",
+            "domain:gismeteo.com",
+            "domain:gosuslugi.ru",
+            "domain:gov.ru",
+            "domain:government.ru",
+            "domain:gu-st.ru",
+            "domain:img.okko.tv",
+            "domain:img.premier.one",
+            "domain:izbirkom.ru",
+            "domain:jam.api.2gis.com",
+            "domain:keys.api.2gis.com",
+            "domain:kinopoisk.ru",
+            "domain:kp.ru",
+            "domain:kremlin.ru",
+            "domain:lemanapro.ru",
+            "domain:lenta.ru",
+            "domain:login.vk.com",
+            "domain:mail.ru",
+            "domain:mail.yandex.com",
+            "domain:mapgl.2gis.com",
+            "domain:max.ru",
+            "domain:mc.yandex.com",
+            "domain:mediafeeds.yandex.com",
+            "domain:my.okko.tv",
+            "domain:my.premier.one",
+            "domain:ok.ru",
+            "domain:okcdn.ru",
+            "domain:okko.tv",
+            "domain:oneme.ru",
+            "domain:ozon.ru",
+            "domain:ozone.ru",
+            "domain:pochta.ru",
+            "domain:premier.one",
+            "domain:public-api.reviews.2gis.com",
+            "domain:push.okko.tv",
+            "domain:push.premier.one",
+            "domain:queuev4.vk.com",
+            "domain:rambler.ru",
+            "domain:rbc.ru",
+            "domain:rutube.ru",
+            "domain:rzd.ru",
+            "domain:sba.yandex.com",
+            "domain:sba.yandex.net",
+            "domain:speller.yandex.net",
+            "domain:stats.okko.tv",
+            "domain:stream.okko.tv",
+            "domain:stream.premier.one",
+            "domain:strm.yandex.net",
+            "domain:styles.api.2gis.com",
+            "domain:supermarket.lenta.com",
+            "domain:sync.browser.yandex.net",
+            "domain:t2.ru",
+            "domain:taximaxim.ru",
+            "domain:tutu.ru",
+            "domain:tv.okko.tv",
+            "domain:userapi.com",
+            "domain:vk.com",
+            "domain:vk.ru",
+            "domain:vtb.ru",
+            "domain:wb.ru",
+            "domain:wildberries.ru",
+            "domain:ya.ru",
+            "domain:yandex.com",
+            "domain:yandex.net",
+            "domain:yandex.ru",
+            "domain:yastatic.net",
+            "domain:zen.yandex.com",
+            "domain:zen.yandex.net",
+            "domain:hh.ru",
+            "domain:lamoda.ru",
+            "domain:moysklad.ru"
+          ],
+          "outboundTag": "direct",
+          "type": "field"
+        },
+        {
+          "balancerTag": "Balancer",
           "network": "tcp,udp",
-          "balancerTag": "Balancer"
+          "type": "field"
         }
       ]
+    },
+    "burstObservatory": {
+      "pingConfig": {
+        "connectivity": "",
+        "destination": "https://www.gstatic.com/generate_204",
+        "httpMethod": "GET",
+        "interval": "30s",
+        "sampling": 3,
+        "timeout": "1000ms"
+      },
+      "subjectSelector": [
+        "proxy-01",
+        "proxy-02",
+        "proxy-03",
+        "proxy-04",
+        "proxy-05",
+        "proxy-06",
+        "proxy-07",
+        "proxy-08",
+        "proxy-09",
+        "proxy-10",
+        "proxy-11",
+        "proxy-12",
+        "proxy-13",
+        "proxy-14"
+      ]
+    },
+    "log": {
+      "access": "",
+      "dnsLog": true,
+      "loglevel": "Warning"
     }
   },
-
   {
-    "remarks": "🇩🇪Germany8",
+    "remarks": " Germany8",
     "dns": {
       "queryStrategy": "UseIPv4",
       "servers": [
@@ -639,9 +780,8 @@
       ]
     }
   },
-
   {
-    "remarks": "🇫🇮Финляндия46",
+    "remarks": " Финляндия46",
     "dns": {
       "queryStrategy": "UseIPv4",
       "servers": [
@@ -745,9 +885,8 @@
       ]
     }
   },
-
   {
-    "remarks": "🇵🇱Польша45",
+    "remarks": " Польша45",
     "dns": {
       "queryStrategy": "UseIPv4",
       "servers": [
@@ -833,9 +972,8 @@
       ]
     }
   },
-
   {
-    "remarks": "🇷🇺Москва39",
+    "remarks": " Москва39",
     "dns": {
       "queryStrategy": "UseIPv4",
       "servers": [
@@ -910,9 +1048,8 @@
       ]
     }
   },
-
   {
-    "remarks": "🇵🇱Польша4",
+    "remarks": " Польша4",
     "dns": {
       "queryStrategy": "UseIPv4",
       "servers": [
@@ -991,9 +1128,8 @@
       ]
     }
   },
-
   {
-    "remarks": "🇩🇪Black🌹WF",
+    "remarks": " Black  WF",
     "dns": {
       "queryStrategy": "UseIPv4",
       "servers": [
@@ -1074,7 +1210,6 @@
       ]
     }
   },
-
   {
     "remarks": "BlackWF",
     "dns": {
@@ -1157,9 +1292,8 @@
       ]
     }
   },
-
   {
-    "remarks": "🇳🇱Black2!",
+    "remarks": " Black2!",
     "dns": {
       "queryStrategy": "UseIPv4",
       "servers": [
@@ -1239,7 +1373,6 @@
       ]
     }
   },
-
   {
     "remarks": "CloNew2",
     "dns": {
@@ -1323,7 +1456,6 @@
       ]
     }
   },
-
   {
     "remarks": "SynatBezlim",
     "dns": {
@@ -1395,7 +1527,6 @@
       ]
     }
   },
-
   {
     "remarks": "Belka",
     "dns": {
@@ -1478,7 +1609,6 @@
       ]
     }
   },
-
   {
     "remarks": "Country1",
     "dns": {
@@ -1559,7 +1689,6 @@
       ]
     }
   },
-
   {
     "remarks": "Country2",
     "dns": {
@@ -1641,9 +1770,8 @@
       ]
     }
   },
-
   {
-    "remarks": "🇫🇮Финляндия17",
+    "remarks": " Финляндия17",
     "dns": {
       "queryStrategy": "UseIPv4",
       "servers": [
