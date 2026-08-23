@@ -1,6 +1,6 @@
 [
   {
-    "remarks": "AUTO | 14 сервероВ",
+    "remarks": "AUTO | 14 серверов",
     "log": {
       "loglevel": "warning"
     },
@@ -470,7 +470,6 @@
           ]
         },
         "streamSettings": {
-          "network": "udp",
           "security": "tls",
           "tlsSettings": {
             "serverName": "work.sywl2live.us",
@@ -562,7 +561,6 @@
       ]
     }
   },
-
   {
     "remarks": "Германия8",
     "inbounds": [
@@ -622,7 +620,6 @@
       }
     ]
   },
-
   {
     "remarks": "Финляндия46",
     "inbounds": [
@@ -674,7 +671,6 @@
       }
     ]
   },
-
   {
     "remarks": "Польша45",
     "inbounds": [
@@ -726,7 +722,6 @@
       }
     ]
   },
-
   {
     "remarks": "Москва39",
     "inbounds": [
@@ -778,7 +773,6 @@
       }
     ]
   },
-
   {
     "remarks": "Польша4",
     "inbounds": [
@@ -834,7 +828,6 @@
       }
     ]
   },
-
   {
     "remarks": "🇩🇪Black🌹WF",
     "inbounds": [
@@ -894,7 +887,6 @@
       }
     ]
   },
-
   {
     "remarks": "BlackWF",
     "inbounds": [
@@ -954,7 +946,6 @@
       }
     ]
   },
-
   {
     "remarks": "🇳🇱Black2!",
     "inbounds": [
@@ -1012,7 +1003,6 @@
       }
     ]
   },
-
   {
     "remarks": "CloNew2",
     "inbounds": [
@@ -1072,7 +1062,6 @@
       }
     ]
   },
-
   {
     "remarks": "SynatBezlim",
     "inbounds": [
@@ -1100,7 +1089,6 @@
           ]
         },
         "streamSettings": {
-          "network": "udp",
           "security": "tls",
           "tlsSettings": {
             "serverName": "work.sywl2live.us",
@@ -1121,7 +1109,6 @@
       }
     ]
   },
-
   {
     "remarks": "Belka",
     "inbounds": [
@@ -1181,7 +1168,6 @@
       }
     ]
   },
-
   {
     "remarks": "Country1",
     "inbounds": [
@@ -1238,7 +1224,6 @@
       }
     ]
   },
-
   {
     "remarks": "Country2",
     "inbounds": [
@@ -1296,7 +1281,6 @@
       }
     ]
   },
-
   {
     "remarks": "Финляндия17",
     "inbounds": [
