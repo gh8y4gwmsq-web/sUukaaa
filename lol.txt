@@ -484,7 +484,6 @@
             "proxy-13",
             "proxy-14"
           ],
-          "fallbackTag": "proxy-01",
           "strategy": {
             "type": "leastLoad",
             "settings": {
