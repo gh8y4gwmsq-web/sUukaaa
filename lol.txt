@@ -1,6 +1,83 @@
 [
   {
     "remarks": "🇷🇺Auto | 14 Servers",
+    "burstObservatory": {
+      "pingConfig": {
+        "connectivity": "",
+        "destination": "https://www.gstatic.com/generate_204",
+        "httpMethod": "GET",
+        "interval": "30s",
+        "sampling": 3,
+        "timeout": "1000ms"
+      },
+      "subjectSelector": [
+        "proxy-01",
+        "proxy-02",
+        "proxy-03",
+        "proxy-04",
+        "proxy-05",
+        "proxy-06",
+        "proxy-07",
+        "proxy-08",
+        "proxy-09",
+        "proxy-10",
+        "proxy-11",
+        "proxy-12",
+        "proxy-13",
+        "proxy-14"
+      ]
+    },
+    "dns": {
+      "queryStrategy": "UseIPv4",
+      "servers": [
+        "1.1.1.1",
+        "https://dns.adguard.com/dns-query"
+      ]
+    },
+    "inbounds": [
+      {
+        "listen": "127.0.0.1",
+        "port": 10808,
+        "protocol": "socks",
+        "settings": {
+          "auth": "noauth",
+          "udp": true
+        },
+        "sniffing": {
+          "enabled": true,
+          "destOverride": [
+            "http",
+            "tls",
+            "quic"
+          ],
+          "routeOnly": false
+        },
+        "tag": "socks"
+      },
+      {
+        "listen": "127.0.0.1",
+        "port": 10809,
+        "protocol": "http",
+        "settings": {
+          "allowTransparent": false
+        },
+        "sniffing": {
+          "enabled": true,
+          "destOverride": [
+            "http",
+            "tls",
+            "quic"
+          ],
+          "routeOnly": false
+        },
+        "tag": "http"
+      }
+    ],
+    "log": {
+      "access": "/private/var/mobile/Containers/Shared/AppGroup/EF0CFBAD-6277-4329-944B-B9EA4D430612/Library/Application Support/Xray/logs/access.log",
+      "dnsLog": true,
+      "loglevel": "Warning"
+    },
     "outbounds": [
       {
         "protocol": "vless",
@@ -11,9 +88,9 @@
               "port": 9443,
               "users": [
                 {
+                  "id": "c4eae94e-d9a0-441d-9e5a-930ede53ac50",
                   "encryption": "none",
-                  "flow": "xtls-rprx-vision",
-                  "id": "c4eae94e-d9a0-441d-9e5a-930ede53ac50"
+                  "flow": "xtls-rprx-vision"
                 }
               ]
             }
@@ -133,9 +210,9 @@
               "port": 443,
               "users": [
                 {
+                  "id": "3f0a5d80-1a82-442d-ac9a-24ff64aaac9b",
                   "encryption": "none",
-                  "flow": "xtls-rprx-vision",
-                  "id": "3f0a5d80-1a82-442d-ac9a-24ff64aaac9b"
+                  "flow": "xtls-rprx-vision"
                 }
               ]
             }
@@ -167,9 +244,9 @@
               "port": 443,
               "users": [
                 {
+                  "id": "3f0a5d80-1a82-442d-ac9a-24ff64aaac9b",
                   "encryption": "none",
-                  "flow": "xtls-rprx-vision",
-                  "id": "3f0a5d80-1a82-442d-ac9a-24ff64aaac9b"
+                  "flow": "xtls-rprx-vision"
                 }
               ]
             }
@@ -201,9 +278,9 @@
               "port": 443,
               "users": [
                 {
+                  "id": "3f0a5d80-1a82-442d-ac9a-24ff64aaac9b",
                   "encryption": "none",
-                  "flow": "",
-                  "id": "3f0a5d80-1a82-442d-ac9a-24ff64aaac9b"
+                  "flow": ""
                 }
               ]
             }
@@ -234,9 +311,9 @@
               "port": 5269,
               "users": [
                 {
+                  "id": "3fe8d738-e5da-4e67-a477-6c8f3e532351",
                   "encryption": "none",
-                  "flow": "",
-                  "id": "3fe8d738-e5da-4e67-a477-6c8f3e532351"
+                  "flow": ""
                 }
               ]
             }
@@ -292,9 +369,9 @@
               "port": 443,
               "users": [
                 {
+                  "id": "fbaea80d-d0ab-4ee5-954e-145d7d73714b",
                   "encryption": "none",
-                  "flow": "xtls-rprx-vision",
-                  "id": "fbaea80d-d0ab-4ee5-954e-145d7d73714b"
+                  "flow": "xtls-rprx-vision"
                 }
               ]
             }
@@ -326,9 +403,9 @@
               "port": 9002,
               "users": [
                 {
+                  "id": "bd3bbd81-8bd1-49ac-9fe6-e5a3214ce81c",
                   "encryption": "none",
-                  "flow": "",
-                  "id": "bd3bbd81-8bd1-49ac-9fe6-e5a3214ce81c"
+                  "flow": ""
                 }
               ]
             }
@@ -358,9 +435,9 @@
               "port": 9002,
               "users": [
                 {
+                  "id": "bd3bbd81-8bd1-49ac-9fe6-e5a3214ce81c",
                   "encryption": "none",
-                  "flow": "",
-                  "id": "bd3bbd81-8bd1-49ac-9fe6-e5a3214ce81c"
+                  "flow": ""
                 }
               ]
             }
@@ -461,118 +538,8 @@
           "type": "field"
         },
         {
-          "outboundTag": "direct",
           "protocol": [
             "bittorrent"
-          ],
-          "type": "field"
-        },
-        {
-          "domain": [
-            "domain:oversub.cloud",
-            "domain:47news.ru",
-            "domain:alfabank.ru",
-            "domain:api.browser.yandex.com",
-            "domain:api.events.plus.yandex.net",
-            "domain:api.photo.2gis.com",
-            "domain:api.premier.one",
-            "domain:api.okko.tv",
-            "domain:api.reviews.2gis.com",
-            "domain:api.s3.yandex.net",
-            "domain:api.uxfeedback.yandex.net",
-            "domain:auth-nsdi.ru",
-            "domain:auth.okko.tv",
-            "domain:auth.premier.one",
-            "domain:auto.ru",
-            "domain:avito.ru",
-            "domain:avito.st",
-            "domain:browser.yandex.com",
-            "domain:cdn.okko.tv",
-            "domain:cdn.premier.one",
-            "domain:cdn-vk.ru",
-            "domain:cdn.s3.yandex.net",
-            "domain:cikrf.ru",
-            "domain:cloud.vk.com",
-            "domain:collections.yandex.com",
-            "domain:catalog.api.2gis.com",
-            "domain:csp.yandex.net",
-            "domain:disk.2gis.com",
-            "domain:dzen.ru",
-            "domain:egress.yandex.net",
-            "domain:eh.vk.com",
-            "domain:favorites.api.2gis.com",
-            "domain:filekeeper-vod.2gis.com",
-            "domain:gazeta.ru",
-            "domain:gismeteo.com",
-            "domain:gosuslugi.ru",
-            "domain:gov.ru",
-            "domain:government.ru",
-            "domain:gu-st.ru",
-            "domain:img.okko.tv",
-            "domain:img.premier.one",
-            "domain:izbirkom.ru",
-            "domain:jam.api.2gis.com",
-            "domain:keys.api.2gis.com",
-            "domain:kinopoisk.ru",
-            "domain:kp.ru",
-            "domain:kremlin.ru",
-            "domain:lemanapro.ru",
-            "domain:lenta.ru",
-            "domain:login.vk.com",
-            "domain:mail.ru",
-            "domain:mail.yandex.com",
-            "domain:mapgl.2gis.com",
-            "domain:max.ru",
-            "domain:mc.yandex.com",
-            "domain:mediafeeds.yandex.com",
-            "domain:my.okko.tv",
-            "domain:my.premier.one",
-            "domain:ok.ru",
-            "domain:okcdn.ru",
-            "domain:okko.tv",
-            "domain:oneme.ru",
-            "domain:ozon.ru",
-            "domain:ozone.ru",
-            "domain:pochta.ru",
-            "domain:premier.one",
-            "domain:public-api.reviews.2gis.com",
-            "domain:push.okko.tv",
-            "domain:push.premier.one",
-            "domain:queuev4.vk.com",
-            "domain:rambler.ru",
-            "domain:rbc.ru",
-            "domain:rutube.ru",
-            "domain:rzd.ru",
-            "domain:sba.yandex.com",
-            "domain:sba.yandex.net",
-            "domain:speller.yandex.net",
-            "domain:stats.okko.tv",
-            "domain:stream.okko.tv",
-            "domain:stream.premier.one",
-            "domain:strm.yandex.net",
-            "domain:styles.api.2gis.com",
-            "domain:supermarket.lenta.com",
-            "domain:sync.browser.yandex.net",
-            "domain:t2.ru",
-            "domain:taximaxim.ru",
-            "domain:tutu.ru",
-            "domain:tv.okko.tv",
-            "domain:userapi.com",
-            "domain:vk.com",
-            "domain:vk.ru",
-            "domain:vtb.ru",
-            "domain:wb.ru",
-            "domain:wildberries.ru",
-            "domain:ya.ru",
-            "domain:yandex.com",
-            "domain:yandex.net",
-            "domain:yandex.ru",
-            "domain:yastatic.net",
-            "domain:zen.yandex.com",
-            "domain:zen.yandex.net",
-            "domain:hh.ru",
-            "domain:lamoda.ru",
-            "domain:moysklad.ru"
           ],
           "outboundTag": "direct",
           "type": "field"
@@ -588,6 +555,34 @@
 
   {
     "remarks": "Германия8",
+    "dns": {
+      "queryStrategy": "UseIPv4",
+      "servers": [
+        "1.1.1.1",
+        "https://dns.adguard.com/dns-query"
+      ]
+    },
+    "inbounds": [
+      {
+        "listen": "127.0.0.1",
+        "port": 10808,
+        "protocol": "socks",
+        "settings": {
+          "auth": "noauth",
+          "udp": true
+        },
+        "tag": "socks"
+      },
+      {
+        "listen": "127.0.0.1",
+        "port": 10809,
+        "protocol": "http",
+        "settings": {
+          "allowTransparent": false
+        },
+        "tag": "http"
+      }
+    ],
     "outbounds": [
       {
         "protocol": "vless",
@@ -598,9 +593,9 @@
               "port": 9443,
               "users": [
                 {
+                  "id": "c4eae94e-d9a0-441d-9e5a-930ede53ac50",
                   "encryption": "none",
-                  "flow": "xtls-rprx-vision",
-                  "id": "c4eae94e-d9a0-441d-9e5a-930ede53ac50"
+                  "flow": "xtls-rprx-vision"
                 }
               ]
             }
@@ -611,8 +606,8 @@
           "security": "reality",
           "realitySettings": {
             "fingerprint": "firefox",
-            "publicKey": "J5ITJbg5FQFembAfkogKHHQB6DigsFXQxK7xu-QMWUs",
             "serverName": "node41.overcdn.ru",
+            "publicKey": "J5ITJbg5FQFembAfkogKHHQB6DigsFXQxK7xu-QMWUs",
             "shortId": "a20d3ed244c76426"
           },
           "tcpSettings": {
@@ -620,13 +615,55 @@
               "type": "none"
             }
           }
-        }
+        },
+        "tag": "proxy-01"
+      },
+      {
+        "protocol": "freedom",
+        "tag": "direct"
       }
-    ]
+    ],
+    "routing": {
+      "domainStrategy": "IPIfNonMatch",
+      "rules": [
+        {
+          "outboundTag": "proxy-01",
+          "type": "field"
+        }
+      ]
+    }
   },
 
   {
     "remarks": "Финляндия46",
+    "dns": {
+      "queryStrategy": "UseIPv4",
+      "servers": [
+        "1.1.1.1",
+        "https://dns.adguard.com/dns-query"
+      ]
+    },
+    "inbounds": [
+      {
+        "listen": "127.0.0.1",
+        "port": 10808,
+        "protocol": "socks",
+        "settings": {
+          "auth": "noauth",
+          "udp": true
+        },
+        "tag": "socks"
+      },
+      {
+        "listen": "127.0.0.1",
+        "port": 10809,
+        "protocol": "http",
+        "settings": {
+          "allowTransparent": false
+        },
+        "tag": "http"
+      }
+    ],
     "outbounds": [
       {
         "protocol": "trojan",
@@ -634,8 +671,8 @@
           "servers": [
             {
               "address": "46.8.209.174",
-              "password": "Sp0Q5SAHx9b0etwPoQU1sYwYJ12JhyRd",
-              "port": 443
+              "port": 443,
+              "password": "Sp0Q5SAHx9b0etwPoQU1sYwYJ12JhyRd"
             }
           ]
         },
@@ -646,13 +683,55 @@
             "fingerprint": "firefox",
             "serverName": "node205.overgroup.cloud"
           }
-        }
+        },
+        "tag": "proxy-02"
+      },
+      {
+        "protocol": "freedom",
+        "tag": "direct"
       }
-    ]
+    ],
+    "routing": {
+      "domainStrategy": "IPIfNonMatch",
+      "rules": [
+        {
+          "outboundTag": "proxy-02",
+          "type": "field"
+        }
+      ]
+    }
   },
 
   {
     "remarks": "Польша45",
+    "dns": {
+      "queryStrategy": "UseIPv4",
+      "servers": [
+        "1.1.1.1",
+        "https://dns.adguard.com/dns-query"
+      ]
+    },
+    "inbounds": [
+      {
+        "listen": "127.0.0.1",
+        "port": 10808,
+        "protocol": "socks",
+        "settings": {
+          "auth": "noauth",
+          "udp": true
+        },
+        "tag": "socks"
+      },
+      {
+        "listen": "127.0.0.1",
+        "port": 10809,
+        "protocol": "http",
+        "settings": {
+          "allowTransparent": false
+        },
+        "tag": "http"
+      }
+    ],
     "outbounds": [
       {
         "protocol": "trojan",
@@ -660,8 +739,8 @@
           "servers": [
             {
               "address": "46.254.19.121",
-              "password": "Sp0Q5SAHx9b0etwPoQU1sYwYJ12JhyRd",
-              "port": 443
+              "port": 443,
+              "password": "Sp0Q5SAHx9b0etwPoQU1sYwYJ12JhyRd"
             }
           ]
         },
@@ -672,13 +751,55 @@
             "fingerprint": "firefox",
             "serverName": "polyartwo.speedload.ru"
           }
-        }
+        },
+        "tag": "proxy-03"
+      },
+      {
+        "protocol": "freedom",
+        "tag": "direct"
       }
-    ]
+    ],
+    "routing": {
+      "domainStrategy": "IPIfNonMatch",
+      "rules": [
+        {
+          "outboundTag": "proxy-03",
+          "type": "field"
+        }
+      ]
+    }
   },
 
   {
     "remarks": "Москва39",
+    "dns": {
+      "queryStrategy": "UseIPv4",
+      "servers": [
+        "1.1.1.1",
+        "https://dns.adguard.com/dns-query"
+      ]
+    },
+    "inbounds": [
+      {
+        "listen": "127.0.0.1",
+        "port": 10808,
+        "protocol": "socks",
+        "settings": {
+          "auth": "noauth",
+          "udp": true
+        },
+        "tag": "socks"
+      },
+      {
+        "listen": "127.0.0.1",
+        "port": 10809,
+        "protocol": "http",
+        "settings": {
+          "allowTransparent": false
+        },
+        "tag": "http"
+      }
+    ],
     "outbounds": [
       {
         "protocol": "trojan",
@@ -686,8 +807,8 @@
           "servers": [
             {
               "address": "37.9.4.138",
-              "password": "Sp0Q5SAHx9b0etwPoQU1sYwYJ12JhyRd",
-              "port": 8443
+              "port": 8443,
+              "password": "Sp0Q5SAHx9b0etwPoQU1sYwYJ12JhyRd"
             }
           ]
         },
@@ -698,13 +819,55 @@
             "fingerprint": "firefox",
             "serverName": "webtracker.rushtaxi.ru"
           }
-        }
+        },
+        "tag": "proxy-04"
+      },
+      {
+        "protocol": "freedom",
+        "tag": "direct"
       }
-    ]
+    ],
+    "routing": {
+      "domainStrategy": "IPIfNonMatch",
+      "rules": [
+        {
+          "outboundTag": "proxy-04",
+          "type": "field"
+        }
+      ]
+    }
   },
 
   {
     "remarks": "Польша4",
+    "dns": {
+      "queryStrategy": "UseIPv4",
+      "servers": [
+        "1.1.1.1",
+        "https://dns.adguard.com/dns-query"
+      ]
+    },
+    "inbounds": [
+      {
+        "listen": "127.0.0.1",
+        "port": 10808,
+        "protocol": "socks",
+        "settings": {
+          "auth": "noauth",
+          "udp": true
+        },
+        "tag": "socks"
+      },
+      {
+        "listen": "127.0.0.1",
+        "port": 10809,
+        "protocol": "http",
+        "settings": {
+          "allowTransparent": false
+        },
+        "tag": "http"
+      }
+    ],
     "outbounds": [
       {
         "protocol": "trojan",
@@ -712,8 +875,8 @@
           "servers": [
             {
               "address": "185.229.9.62",
-              "password": "Sp0Q5SAHx9b0etwPoQU1sYwYJ12JhyRd",
-              "port": 443
+              "port": 443,
+              "password": "Sp0Q5SAHx9b0etwPoQU1sYwYJ12JhyRd"
             }
           ]
         },
@@ -728,13 +891,55 @@
             "fingerprint": "firefox",
             "serverName": "node205.overgroup.cloud"
           }
-        }
+        },
+        "tag": "proxy-05"
+      },
+      {
+        "protocol": "freedom",
+        "tag": "direct"
       }
-    ]
+    ],
+    "routing": {
+      "domainStrategy": "IPIfNonMatch",
+      "rules": [
+        {
+          "outboundTag": "proxy-05",
+          "type": "field"
+        }
+      ]
+    }
   },
 
   {
     "remarks": "🇩🇪Black🌹WF",
+    "dns": {
+      "queryStrategy": "UseIPv4",
+      "servers": [
+        "1.1.1.1",
+        "https://dns.adguard.com/dns-query"
+      ]
+    },
+    "inbounds": [
+      {
+        "listen": "127.0.0.1",
+        "port": 10808,
+        "protocol": "socks",
+        "settings": {
+          "auth": "noauth",
+          "udp": true
+        },
+        "tag": "socks"
+      },
+      {
+        "listen": "127.0.0.1",
+        "port": 10809,
+        "protocol": "http",
+        "settings": {
+          "allowTransparent": false
+        },
+        "tag": "http"
+      }
+    ],
     "outbounds": [
       {
         "protocol": "vless",
@@ -745,9 +950,9 @@
               "port": 443,
               "users": [
                 {
+                  "id": "3f0a5d80-1a82-442d-ac9a-24ff64aaac9b",
                   "encryption": "none",
-                  "flow": "xtls-rprx-vision",
-                  "id": "3f0a5d80-1a82-442d-ac9a-24ff64aaac9b"
+                  "flow": "xtls-rprx-vision"
                 }
               ]
             }
@@ -758,8 +963,8 @@
           "security": "reality",
           "realitySettings": {
             "fingerprint": "firefox",
-            "publicKey": "CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw",
             "serverName": "eh.vk.ru",
+            "publicKey": "CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw",
             "shortId": "abe4a59b9f2407e3"
           },
           "tcpSettings": {
@@ -767,13 +972,55 @@
               "type": "none"
             }
           }
-        }
+        },
+        "tag": "proxy-06"
+      },
+      {
+        "protocol": "freedom",
+        "tag": "direct"
       }
-    ]
+    ],
+    "routing": {
+      "domainStrategy": "IPIfNonMatch",
+      "rules": [
+        {
+          "outboundTag": "proxy-06",
+          "type": "field"
+        }
+      ]
+    }
   },
 
   {
     "remarks": "BlackWF",
+    "dns": {
+      "queryStrategy": "UseIPv4",
+      "servers": [
+        "1.1.1.1",
+        "https://dns.adguard.com/dns-query"
+      ]
+    },
+    "inbounds": [
+      {
+        "listen": "127.0.0.1",
+        "port": 10808,
+        "protocol": "socks",
+        "settings": {
+          "auth": "noauth",
+          "udp": true
+        },
+        "tag": "socks"
+      },
+      {
+        "listen": "127.0.0.1",
+        "port": 10809,
+        "protocol": "http",
+        "settings": {
+          "allowTransparent": false
+        },
+        "tag": "http"
+      }
+    ],
     "outbounds": [
       {
         "protocol": "vless",
@@ -784,9 +1031,9 @@
               "port": 443,
               "users": [
                 {
+                  "id": "3f0a5d80-1a82-442d-ac9a-24ff64aaac9b",
                   "encryption": "none",
-                  "flow": "xtls-rprx-vision",
-                  "id": "3f0a5d80-1a82-442d-ac9a-24ff64aaac9b"
+                  "flow": "xtls-rprx-vision"
                 }
               ]
             }
@@ -797,8 +1044,8 @@
           "security": "reality",
           "realitySettings": {
             "fingerprint": "firefox",
-            "publicKey": "CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw",
             "serverName": "cdn3-70.yahoo.com",
+            "publicKey": "CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw",
             "shortId": "5784c337fe1cbb05"
           },
           "tcpSettings": {
@@ -806,13 +1053,55 @@
               "type": "none"
             }
           }
-        }
+        },
+        "tag": "proxy-07"
+      },
+      {
+        "protocol": "freedom",
+        "tag": "direct"
       }
-    ]
+    ],
+    "routing": {
+      "domainStrategy": "IPIfNonMatch",
+      "rules": [
+        {
+          "outboundTag": "proxy-07",
+          "type": "field"
+        }
+      ]
+    }
   },
 
   {
     "remarks": "🇳🇱Black2!",
+    "dns": {
+      "queryStrategy": "UseIPv4",
+      "servers": [
+        "1.1.1.1",
+        "https://dns.adguard.com/dns-query"
+      ]
+    },
+    "inbounds": [
+      {
+        "listen": "127.0.0.1",
+        "port": 10808,
+        "protocol": "socks",
+        "settings": {
+          "auth": "noauth",
+          "udp": true
+        },
+        "tag": "socks"
+      },
+      {
+        "listen": "127.0.0.1",
+        "port": 10809,
+        "protocol": "http",
+        "settings": {
+          "allowTransparent": false
+        },
+        "tag": "http"
+      }
+    ],
     "outbounds": [
       {
         "protocol": "vless",
@@ -823,9 +1112,9 @@
               "port": 443,
               "users": [
                 {
+                  "id": "3f0a5d80-1a82-442d-ac9a-24ff64aaac9b",
                   "encryption": "none",
-                  "flow": "",
-                  "id": "3f0a5d80-1a82-442d-ac9a-24ff64aaac9b"
+                  "flow": ""
                 }
               ]
             }
@@ -844,13 +1133,55 @@
             },
             "path": "/api/v1/devices/f08f8debbb/telemetry"
           }
-        }
+        },
+        "tag": "proxy-08"
+      },
+      {
+        "protocol": "freedom",
+        "tag": "direct"
       }
-    ]
+    ],
+    "routing": {
+      "domainStrategy": "IPIfNonMatch",
+      "rules": [
+        {
+          "outboundTag": "proxy-08",
+          "type": "field"
+        }
+      ]
+    }
   },
 
   {
     "remarks": "CloNew2",
+    "dns": {
+      "queryStrategy": "UseIPv4",
+      "servers": [
+        "1.1.1.1",
+        "https://dns.adguard.com/dns-query"
+      ]
+    },
+    "inbounds": [
+      {
+        "listen": "127.0.0.1",
+        "port": 10808,
+        "protocol": "socks",
+        "settings": {
+          "auth": "noauth",
+          "udp": true
+        },
+        "tag": "socks"
+      },
+      {
+        "listen": "127.0.0.1",
+        "port": 10809,
+        "protocol": "http",
+        "settings": {
+          "allowTransparent": false
+        },
+        "tag": "http"
+      }
+    ],
     "outbounds": [
       {
         "protocol": "vless",
@@ -861,9 +1192,9 @@
               "port": 5269,
               "users": [
                 {
+                  "id": "3fe8d738-e5da-4e67-a477-6c8f3e532351",
                   "encryption": "none",
-                  "flow": "",
-                  "id": "3fe8d738-e5da-4e67-a477-6c8f3e532351"
+                  "flow": ""
                 }
               ]
             }
@@ -874,8 +1205,8 @@
           "security": "reality",
           "realitySettings": {
             "fingerprint": "qq",
-            "publicKey": "ntO-QRS-QS1zrprV888NcOqjYNjK8xcS-B0YGlhJoFI",
             "serverName": "max.ru",
+            "publicKey": "ntO-QRS-QS1zrprV888NcOqjYNjK8xcS-B0YGlhJoFI",
             "shortId": "442fe397c8563dc3",
             "spiderX": "/"
           },
@@ -884,13 +1215,55 @@
               "type": "none"
             }
           }
-        }
+        },
+        "tag": "proxy-09"
+      },
+      {
+        "protocol": "freedom",
+        "tag": "direct"
       }
-    ]
+    ],
+    "routing": {
+      "domainStrategy": "IPIfNonMatch",
+      "rules": [
+        {
+          "outboundTag": "proxy-09",
+          "type": "field"
+        }
+      ]
+    }
   },
 
   {
     "remarks": "SynatBezlim",
+    "dns": {
+      "queryStrategy": "UseIPv4",
+      "servers": [
+        "1.1.1.1",
+        "https://dns.adguard.com/dns-query"
+      ]
+    },
+    "inbounds": [
+      {
+        "listen": "127.0.0.1",
+        "port": 10808,
+        "protocol": "socks",
+        "settings": {
+          "auth": "noauth",
+          "udp": true
+        },
+        "tag": "socks"
+      },
+      {
+        "listen": "127.0.0.1",
+        "port": 10809,
+        "protocol": "http",
+        "settings": {
+          "allowTransparent": false
+        },
+        "tag": "http"
+      }
+    ],
     "outbounds": [
       {
         "protocol": "hysteria",
@@ -912,13 +1285,55 @@
             ],
             "serverName": "work.sywl2live.us"
           }
-        }
+        },
+        "tag": "proxy-10"
+      },
+      {
+        "protocol": "freedom",
+        "tag": "direct"
       }
-    ]
+    ],
+    "routing": {
+      "domainStrategy": "IPIfNonMatch",
+      "rules": [
+        {
+          "outboundTag": "proxy-10",
+          "type": "field"
+        }
+      ]
+    }
   },
 
   {
     "remarks": "Belka",
+    "dns": {
+      "queryStrategy": "UseIPv4",
+      "servers": [
+        "1.1.1.1",
+        "https://dns.adguard.com/dns-query"
+      ]
+    },
+    "inbounds": [
+      {
+        "listen": "127.0.0.1",
+        "port": 10808,
+        "protocol": "socks",
+        "settings": {
+          "auth": "noauth",
+          "udp": true
+        },
+        "tag": "socks"
+      },
+      {
+        "listen": "127.0.0.1",
+        "port": 10809,
+        "protocol": "http",
+        "settings": {
+          "allowTransparent": false
+        },
+        "tag": "http"
+      }
+    ],
     "outbounds": [
       {
         "protocol": "vless",
@@ -929,9 +1344,9 @@
               "port": 443,
               "users": [
                 {
+                  "id": "fbaea80d-d0ab-4ee5-954e-145d7d73714b",
                   "encryption": "none",
-                  "flow": "xtls-rprx-vision",
-                  "id": "fbaea80d-d0ab-4ee5-954e-145d7d73714b"
+                  "flow": "xtls-rprx-vision"
                 }
               ]
             }
@@ -942,8 +1357,8 @@
           "security": "reality",
           "realitySettings": {
             "fingerprint": "firefox",
-            "publicKey": "_qSbW4JL4Ffqvj25vX-6a2ul9Qlj6PBdlF0ghsf_0RQ",
             "serverName": "ads.x5.ru",
+            "publicKey": "_qSbW4JL4Ffqvj25vX-6a2ul9Qlj6PBdlF0ghsf_0RQ",
             "shortId": "a9dc98a7dc87a7dc"
           },
           "tcpSettings": {
@@ -951,13 +1366,55 @@
               "type": "none"
             }
           }
-        }
+        },
+        "tag": "proxy-11"
+      },
+      {
+        "protocol": "freedom",
+        "tag": "direct"
       }
-    ]
+    ],
+    "routing": {
+      "domainStrategy": "IPIfNonMatch",
+      "rules": [
+        {
+          "outboundTag": "proxy-11",
+          "type": "field"
+        }
+      ]
+    }
   },
 
   {
     "remarks": "Country1",
+    "dns": {
+      "queryStrategy": "UseIPv4",
+      "servers": [
+        "1.1.1.1",
+        "https://dns.adguard.com/dns-query"
+      ]
+    },
+    "inbounds": [
+      {
+        "listen": "127.0.0.1",
+        "port": 10808,
+        "protocol": "socks",
+        "settings": {
+          "auth": "noauth",
+          "udp": true
+        },
+        "tag": "socks"
+      },
+      {
+        "listen": "127.0.0.1",
+        "port": 10809,
+        "protocol": "http",
+        "settings": {
+          "allowTransparent": false
+        },
+        "tag": "http"
+      }
+    ],
     "outbounds": [
       {
         "protocol": "vless",
@@ -968,9 +1425,9 @@
               "port": 9002,
               "users": [
                 {
+                  "id": "bd3bbd81-8bd1-49ac-9fe6-e5a3214ce81c",
                   "encryption": "none",
-                  "flow": "",
-                  "id": "bd3bbd81-8bd1-49ac-9fe6-e5a3214ce81c"
+                  "flow": ""
                 }
               ]
             }
@@ -985,16 +1442,58 @@
           },
           "realitySettings": {
             "fingerprint": "firefox",
-            "publicKey": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
-            "serverName": "api-maps.yandex.ru"
+            "serverName": "api-maps.yandex.ru",
+            "publicKey": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"
           }
-        }
+        },
+        "tag": "proxy-12"
+      },
+      {
+        "protocol": "freedom",
+        "tag": "direct"
       }
-    ]
+    ],
+    "routing": {
+      "domainStrategy": "IPIfNonMatch",
+      "rules": [
+        {
+          "outboundTag": "proxy-12",
+          "type": "field"
+        }
+      ]
+    }
   },
 
   {
     "remarks": "Country2",
+    "dns": {
+      "queryStrategy": "UseIPv4",
+      "servers": [
+        "1.1.1.1",
+        "https://dns.adguard.com/dns-query"
+      ]
+    },
+    "inbounds": [
+      {
+        "listen": "127.0.0.1",
+        "port": 10808,
+        "protocol": "socks",
+        "settings": {
+          "auth": "noauth",
+          "udp": true
+        },
+        "tag": "socks"
+      },
+      {
+        "listen": "127.0.0.1",
+        "port": 10809,
+        "protocol": "http",
+        "settings": {
+          "allowTransparent": false
+        },
+        "tag": "http"
+      }
+    ],
     "outbounds": [
       {
         "protocol": "vless",
@@ -1005,9 +1504,9 @@
               "port": 9002,
               "users": [
                 {
+                  "id": "bd3bbd81-8bd1-49ac-9fe6-e5a3214ce81c",
                   "encryption": "none",
-                  "flow": "",
-                  "id": "bd3bbd81-8bd1-49ac-9fe6-e5a3214ce81c"
+                  "flow": ""
                 }
               ]
             }
@@ -1022,17 +1521,59 @@
           },
           "realitySettings": {
             "fingerprint": "firefox",
-            "publicKey": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
             "serverName": "api-maps.yandex.ru",
+            "publicKey": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
             "shortId": "6ba85179e30d4fc2"
           }
-        }
+        },
+        "tag": "proxy-13"
+      },
+      {
+        "protocol": "freedom",
+        "tag": "direct"
       }
-    ]
+    ],
+    "routing": {
+      "domainStrategy": "IPIfNonMatch",
+      "rules": [
+        {
+          "outboundTag": "proxy-13",
+          "type": "field"
+        }
+      ]
+    }
   },
 
   {
     "remarks": "Финляндия17",
+    "dns": {
+      "queryStrategy": "UseIPv4",
+      "servers": [
+        "1.1.1.1",
+        "https://dns.adguard.com/dns-query"
+      ]
+    },
+    "inbounds": [
+      {
+        "listen": "127.0.0.1",
+        "port": 10808,
+        "protocol": "socks",
+        "settings": {
+          "auth": "noauth",
+          "udp": true
+        },
+        "tag": "socks"
+      },
+      {
+        "listen": "127.0.0.1",
+        "port": 10809,
+        "protocol": "http",
+        "settings": {
+          "allowTransparent": false
+        },
+        "tag": "http"
+      }
+    ],
     "outbounds": [
       {
         "protocol": "trojan",
@@ -1040,8 +1581,8 @@
           "servers": [
             {
               "address": "5.188.115.162",
-              "password": "k7yGv5tfbVSGmb9pv5CyGCVMcsxSPh",
-              "port": 443
+              "port": 443,
+              "password": "k7yGv5tfbVSGmb9pv5CyGCVMcsxSPh"
             }
           ]
         },
@@ -1056,8 +1597,22 @@
             "fingerprint": "firefox",
             "serverName": "node219.overgroup.cloud"
           }
-        }
+        },
+        "tag": "proxy-14"
+      },
+      {
+        "protocol": "freedom",
+        "tag": "direct"
       }
-    ]
+    ],
+    "routing": {
+      "domainStrategy": "IPIfNonMatch",
+      "rules": [
+        {
+          "outboundTag": "proxy-14",
+          "type": "field"
+        }
+      ]
+    }
   }
 ]
