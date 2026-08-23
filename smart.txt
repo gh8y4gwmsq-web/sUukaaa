@@ -1,3 +1,7 @@
+#profile-title: Sueta
+#profile-update-interval: 4
+#support-url: https://t.me/SuetaVpna
+#profile-web-page-url: https://t.me/SuetaVpna
 {
   "burstObservatory": {
     "pingConfig": {
