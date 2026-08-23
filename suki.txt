@@ -16,4 +16,4 @@ vless://fbaea80d-d0ab-4ee5-954e-145d7d73714b@95.163.232.208:443?encryption=none&
 vless://bd3bbd81-8bd1-49ac-9fe6-e5a3214ce81c@217.19.122.88:9002?type=grpc&mode=gun&serviceName=grpc-reality&security=reality&fp=firefox&sni=api-maps.yandex.ru&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc#Country1
 vless://bd3bbd81-8bd1-49ac-9fe6-e5a3214ce81c@185.141.227.150:9002?type=grpc&mode=gun&serviceName=grpc-reality&security=reality&fp=firefox&sni=api-maps.yandex.ru&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=6ba85179e30d4fc2#Country2
 trojan://k7yGv5tfbVSGmb9pv5CyGCVMcsxSPh@5.188.115.162:443?type=tcp&headerType=none&security=tls&sni=node219.overgroup.cloud&alpn=h2,http/1.1&fp=firefox#Финляндия17
-
+vless://3fe8d738-e5da-4e67-a477-6c8f3e532351@cd12m.clonodes.top:6443?type=tcp&headerType=none&security=reality&fp=qq&sni=max.ru&pbk=pGFgy_rrpU51v3IFm-dYHOJskMDJO0kCAkIIHJdUSF8&sid=f3e8b2b1#Close3
