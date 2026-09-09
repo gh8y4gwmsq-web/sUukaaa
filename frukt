@@ -1,5 +1,9 @@
 #profile-title: Sueta
 #hide-settings: 1
+#subscription-auto-update-enable: 1
+#subscription-auto-update-open-enable: 1
+#subscription-pin: true
+#subscriptions-sort-type: ping
 #profile-update-interval: 4
 #support-url: https://t.me/SuetaVpna
 #profile-web-page-url: https://t.me/SuetaVpna
