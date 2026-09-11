@@ -9,7 +9,7 @@ trojan://Sp0Q5SAHx9b0etwPoQU1sYwYJ12JhyRd@37.9.4.138:8443?type=tcp&headerType=no
 trojan://Sp0Q5SAHx9b0etwPoQU1sYwYJ12JhyRd@185.229.9.62:443?type=tcp&security=tls&sni=node205.overgroup.cloud&alpn=h2,http/1.1&fp=firefox#Польша4
 vless://4a745b33-39c5-415c-8bca-17d842e2c7c5@217.19.122.43:9443?type=grpc&mode=gun&serviceName=&security=reality&fp=chrome&sni=id.vk.com&pbk=cjLqnMfUlCEnGbKJT3v8wPgv81SLR1Pxq76HxrivUG8&sid=afde73#SynatBezlim
 trojan://k7yGv5tfbVSGmb9pv5CyGCVMcsxSPh@5.188.115.162:443?type=tcp&headerType=none&security=tls&sni=node219.overgroup.cloud&alpn=h2,http/1.1&fp=firefox#Финляндия17
-vless://3f0a5d80-1a82-442d-ac9a-24ff64aaac9b@188.72.103.3:443?flow=&type=ws&host=jobs.spoolside.link&path=/api/v1/printers/26adcc31fb/progress&security=tls&sni=cdn.tracker.yandex.net&fp=firefox#Black🌹
+vless://3f0a5d80-1a82-442d-ac9a-24ff64aaac9b@188.72.103.3:443?flow=&type=ws&host=book.slotbridge.link&path=/api/v1/reservations/4cdb8d1f35/updates&security=tls&sni=cdn.tracker.yandex.net&fp=firefox#Black🌹
 vless://3f0a5d80-1a82-442d-ac9a-24ff64aaac9b@84.201.173.235:443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=firefox&sni=eh3.vk.ru&pbk=CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw&sid=3be8339923410338#BlackWF
 vless://3f0a5d80-1a82-442d-ac9a-24ff64aaac9b@5.254.4.4:443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=firefox&sni=cdn4-81.taobao.com&pbk=CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw&sid=55e6d9bd269aac46#BlackWF2
 vless://5b81669f-0001-44b7-bf99-21c0c99b3b10@87.228.101.65:5001?type=grpc&mode=gun&serviceName=&security=reality&fp=firefox&sni=cdnv-img.perekrestok.ru&pbk=tU3X98qd93T0sARHHQ0jkxUsBeBF73vJXy5M5moY5WY&sid=877f80d096#Gemma1
