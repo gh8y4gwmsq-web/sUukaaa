@@ -25,5 +25,5 @@ vless://9fcec846-dee1-4bc5-a881-498f85120ec3@cdn-portal.v1.videocontent.eto-jame
 vless://9fcec846-dee1-4bc5-a881-498f85120ec3@5.178.85.14:443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=qq&sni=2hours.dellin.ru&pbk=fnQyZEpEiRltkXjRHnJP7EotJug38m_fUdAo0SjlUDI&sid=d681ac08&spx=/#CloudMob1
 vless://9fcec846-dee1-4bc5-a881-498f85120ec3@188.225.56.221:443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=qq&sni=sentry-ingest.restnproducts.ru&pbk=qiqJ06sfimJyskU0SqvsYYOKkj5NH3DF714BOUUgwFM&sid=808919249bb95b68&spx=/#ClouMB2
 vless://bb86e04b-9028-4479-9d24-f699f3951060@194.55.239.155:443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=firefox&sni=5post-gate.x5.ru&pbk=OCRYYq4e92sQ-wWFRX6WX9pdvuFBWOqybLhpSiv3nFA&sid=111111#Wisex
-vless://fbaea80d-d0ab-4ee5-954e-145d7d73714b@reg.yandex-api.com:443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=qq&sni=eh.vk.com&pbk=3v-9P94hjSE1fw6we1J4RvyIYnFhySQUAe1DUKqkaBo&sid=7f2e9c4b1a8d6a53#Belka
+vless://fbaea80d-d0ab-4ee5-954e-145d7d73714b@reg.yandex-api.com:443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=qq&sni=eh.vk.com&pbk=3v-9P94hjSE1fw6we1J4RvyIYnFhySQUAe1DUKqkaBo&sid=7f2e9c4b1a8d6a53#Belka!
 
