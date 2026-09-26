@@ -7,7 +7,6 @@ trojan://BthAjY9NTVWEG67KCTbf37yDVyXQ2cdk@46.254.19.121:443?type=tcp&headerType=
 vless://5cce0e0a-2866-4284-a00b-5871e750371b@178.248.236.193:9443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=firefox&sni=node41.overcdn.ru&pbk=J5ITJbg5FQFembAfkogKHHQB6DigsFXQxK7xu-QMWUs&sid=a20d3ed244c76426#Германия8
 trojan://BthAjY9NTVWEG67KCTbf37yDVyXQ2cdk@37.9.4.138:8443?type=tcp&headerType=none&security=tls&sni=webtracker.rushtaxi.ru&fp=firefox#Москва39
 trojan://BthAjY9NTVWEG67KCTbf37yDVyXQ2cdk@185.229.9.62:443?type=tcp&security=tls&sni=node205.overgroup.cloud&alpn=h2,http/1.1&fp=firefox#Польша4
-trojan://k7yGv5tfbVSGmb9pv5CyGCVMcsxSPh@5.188.115.162:443?type=tcp&headerType=none&security=tls&sni=node219.overgroup.cloud&alpn=h2,http/1.1&fp=firefox#Финляндия17
 vless://3f0a5d80-1a82-442d-ac9a-24ff64aaac9b@188.72.103.3:443?flow=&type=ws&host=results.labwire.link&path=/api/v1/samples/60c976b0a0/results&security=tls&sni=cdn.tracker.yandex.net&fp=firefox#%F0%9F%87%A9%F0%9F%87%AABlackG🌹
 vless://3f0a5d80-1a82-442d-ac9a-24ff64aaac9b@84.201.172.47:443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=firefox&sni=eh1.vk.ru&pbk=CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw&sid=0dc0ced5bf4f756c#%F0%9F%87%B3%F0%9F%87%B1BlackWF
 vless://3f0a5d80-1a82-442d-ac9a-24ff64aaac9b@9.247.35.227:443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=firefox&sni=community3-64.steamstatic.com&pbk=CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw&sid=d08bb54b5b94b2fc#%F0%9F%87%AB%F0%9F%87%AEBlackWF2
