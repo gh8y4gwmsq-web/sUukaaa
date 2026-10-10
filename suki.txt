@@ -16,7 +16,7 @@ vless://0641a5a2-8122-4aa2-a4d7-06bca2e79fc0@178.248.236.77:62443?flow=xtls-rprx
 trojan://nAtDnDFFLgJFhhJTEQA1K2pxR7aWdUoQ@78.159.250.155:443?type=tcp&headerType=none&security=tls&sni=node228.overgroup.cloud&alpn=http/1.1,h2&fp=firefox#Shamilov4
 vless://7c73906e-f7d1-46a4-9ea7-c66c218a261f@46.254.17.242:443?type=grpc&mode=gun&serviceName=grpc&security=tls&sni=polyartwo.speedload.ru&alpn=h2,http/1.1&fp=firefox#Tu4uev45
 vless://7c73906e-f7d1-46a4-9ea7-c66c218a261f@178.248.236.193:7443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=firefox&sni=node72.overcdn.ru&pbk=J5ITJbg5FQFembAfkogKHHQB6DigsFXQxK7xu-QMWUs&sid=a20d3ed244c76426#Larisa10
-
+vless://4a745b33-39c5-415c-8bca-17d842e2c7c5@content-iv1k.login.opendns.stream:443?flow=&type=ws&host=content-iv1k.login.opendns.stream&path=/sock/relay/007f9c12e265&security=tls&sni=content-iv1k.login.opendns.stream&alpn=http/1.1&fp=qq#%F0%9F%87%B7%F0%9F%87%BAMangol(Synat)
 
 
 
