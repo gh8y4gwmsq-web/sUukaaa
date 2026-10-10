@@ -19,6 +19,7 @@ vless://7c73906e-f7d1-46a4-9ea7-c66c218a261f@178.248.236.193:7443?flow=xtls-rprx
 vless://4a745b33-39c5-415c-8bca-17d842e2c7c5@content-iv1k.login.opendns.stream:443?flow=&type=ws&host=content-iv1k.login.opendns.stream&path=/sock/relay/007f9c12e265&security=tls&sni=content-iv1k.login.opendns.stream&alpn=http/1.1&fp=qq#%F0%9F%87%B7%F0%9F%87%BAMangol(Synat)
 vless://4a745b33-39c5-415c-8bca-17d842e2c7c5@crm.hourtley.com:443?encryption=none&security=tls&type=ws&sni=crm.hourtley.com&fp=qq&alpn=http%2F1.1&host=crm.hourtley.com&path=%2Fstream%2Fvideo%2Fffmpeg#MagomedZagid(Xiza)Synat2
 vless://4a745b33-39c5-415c-8bca-17d842e2c7c5@cdn.dash.gearmonster.org:443?encryption=none&security=tls&type=ws&sni=cdn.dash.gearmonster.org&fp=qq&alpn=http%2F1.1&host=cdn.dash.gearmonster.org&path=%2Fedge%2Fnode8%2Fpush#Rustam1443(Synat3)
+vmess://eyJzY3kiOiJhdXRvIiwiaG9zdCI6InJlbmRlcmVyLXN0cmVhbS0xLTc2OC5taXJyYS5ub3ciLCJhZGQiOiJyZW5kZXJlci1zdHJlYW0tMS03NjgubWlycmEubm93IiwicG9ydCI6IjQ0MyIsImlkIjoiNmZmZDAyMWItMDZkMi00MGM1LThjYTMtNDBkMmJlNWZkNzNjIiwiZnAiOiJmaXJlZm94IiwiYWxwbiI6ImgyIiwidGxzIjoidGxzIiwibmV0Ijoid3MiLCJzbmkiOiJyZW5kZXJlci1zdHJlYW0tMS03NjgubWlycmEubm93IiwicGF0aCI6IlwvYXBpXC92MVwvZ3B1LXN0cmVhbVwvc29ja2V0IiwicHMiOiJZbWFsYXQoU291dGgpIn0=
 
 
 
