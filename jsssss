@@ -1,0 +1,716 @@
+{
+  "burstObservatory" : {
+    "pingConfig" : {
+      "connectivity" : "",
+      "destination" : "http:\/\/www.gstatic.com\/generate_204",
+      "interval" : "10m",
+      "sampling" : 2,
+      "timeout" : "10s"
+    },
+    "subjectSelector" : [
+      "proxy"
+    ]
+  },
+  "dns" : {
+    "queryStrategy" : "UseIPv4",
+    "servers" : [
+      "1.1.1.1",
+      "https:\/\/dns.adguard.com\/dns-query"
+    ]
+  },
+  "inbounds" : [
+    {
+      "listen" : "127.0.0.1",
+      "port" : 10808,
+      "protocol" : "socks",
+      "settings" : {
+        "auth" : "noauth",
+        "udp" : true
+      },
+      "sniffing" : {
+        "destOverride" : [
+          "http",
+          "tls",
+          "quic"
+        ],
+        "enabled" : true,
+        "routeOnly" : false
+      },
+      "tag" : "socks"
+    },
+    {
+      "listen" : "127.0.0.1",
+      "port" : 10809,
+      "protocol" : "http",
+      "settings" : {
+        "allowTransparent" : false
+      },
+      "sniffing" : {
+        "destOverride" : [
+          "http",
+          "tls",
+          "quic"
+        ],
+        "enabled" : true,
+        "routeOnly" : false
+      },
+      "tag" : "http"
+    }
+  ],
+  "log" : {
+    "access" : "\/private\/var\/mobile\/Containers\/Shared\/AppGroup\/EF0CFBAD-6277-4329-944B-B9EA4D430612\/Library\/Application Support\/Xray\/logs\/access.log",
+    "dnsLog" : true,
+    "loglevel" : "Warning"
+  },
+  "outbounds" : [
+    {
+      "protocol" : "vless",
+      "settings" : {
+        "vnext" : [
+          {
+            "address" : "87.242.103.201",
+            "port" : 8443,
+            "users" : [
+              {
+                "encryption" : "none",
+                "flow" : "xtls-rprx-vision",
+                "id" : "7c73906e-f7d1-46a4-9ea7-c66c218a261f"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings" : {
+        "network" : "tcp",
+        "realitySettings" : {
+          "fingerprint" : "firefox",
+          "publicKey" : "lCwVDvngXM3kLz86XpOJmZ46coOVaV7Kl7vB7cCPeQI",
+          "serverName" : "yandex.ru",
+          "shortId" : "a20d3ed244c76426"
+        },
+        "security" : "reality",
+        "tcpSettings" : {
+          "header" : {
+            "type" : "none"
+          }
+        }
+      },
+      "tag" : "proxy"
+    },
+    {
+      "protocol" : "vless",
+      "settings" : {
+        "vnext" : [
+          {
+            "address" : "79.174.92.252",
+            "port" : 22,
+            "users" : [
+              {
+                "encryption" : "none",
+                "flow" : "xtls-rprx-vision",
+                "id" : "7c73906e-f7d1-46a4-9ea7-c66c218a261f"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings" : {
+        "network" : "tcp",
+        "realitySettings" : {
+          "fingerprint" : "firefox",
+          "publicKey" : "lCwVDvngXM3kLz86XpOJmZ46coOVaV7Kl7vB7cCPeQI",
+          "serverName" : "ads.x5.ru",
+          "shortId" : "a20d3ed244c76426"
+        },
+        "security" : "reality",
+        "tcpSettings" : {
+          "header" : {
+            "type" : "none"
+          }
+        }
+      },
+      "tag" : "proxy-2"
+    },
+    {
+      "protocol" : "vless",
+      "settings" : {
+        "vnext" : [
+          {
+            "address" : "79.174.92.44",
+            "port" : 22,
+            "users" : [
+              {
+                "encryption" : "none",
+                "flow" : "xtls-rprx-vision",
+                "id" : "7c73906e-f7d1-46a4-9ea7-c66c218a261f"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings" : {
+        "network" : "tcp",
+        "realitySettings" : {
+          "fingerprint" : "firefox",
+          "publicKey" : "lCwVDvngXM3kLz86XpOJmZ46coOVaV7Kl7vB7cCPeQI",
+          "serverName" : "ads.x5.ru",
+          "shortId" : "a20d3ed244c76426"
+        },
+        "security" : "reality",
+        "tcpSettings" : {
+          "header" : {
+            "type" : "none"
+          }
+        }
+      },
+      "tag" : "proxy-3"
+    },
+    {
+      "protocol" : "trojan",
+      "settings" : {
+        "servers" : [
+          {
+            "address" : "185.229.9.95",
+            "password" : "nAtDnDFFLgJFhhJTEQA1K2pxR7aWdUoQ",
+            "port" : 443
+          }
+        ]
+      },
+      "streamSettings" : {
+        "finalmask" : {
+          "quicParams" : {
+            "congestion" : "bbr",
+            "initConnectionReceiveWindow" : 20971520,
+            "initStreamReceiveWindow" : 8388608,
+            "keepAlivePeriod" : 15,
+            "maxConnectionReceiveWindow" : 20971520,
+            "maxIdleTimeout" : 30,
+            "maxStreamReceiveWindow" : 8388608
+          },
+          "udp" : [
+            {
+              "settings" : {
+                "password" : "6AZ+AA058u9\/OtMup8hF9K6S7OeA+Ic2W73zm2PYa9c="
+              },
+              "type" : "salamander"
+            }
+          ]
+        },
+        "network" : "tcp",
+        "security" : "tls",
+        "tcpSettings" : {
+
+        },
+        "tlsSettings" : {
+          "alpn" : [
+            "h2",
+            "http\/1.1"
+          ],
+          "fingerprint" : "firefox",
+          "serverName" : "node205.overgroup.cloud"
+        }
+      },
+      "tag" : "proxy-4"
+    },
+    {
+      "protocol" : "freedom",
+      "tag" : "direct"
+    },
+    {
+      "protocol" : "blackhole",
+      "tag" : "block"
+    }
+  ],
+  "remarks" : "🇷🇺Auto | Балансер Обход-1",
+  "routing" : {
+    "balancers" : [
+      {
+        "fallbackTag" : "block",
+        "selector" : [
+          "proxy"
+        ],
+        "strategy" : {
+          "settings" : {
+            "baselines" : [
+              "1s"
+            ],
+            "expected" : 2,
+            "maxRTT" : "1s",
+            "tolerance" : 60.009999999999998
+          },
+          "type" : "leastLoad"
+        },
+        "tag" : "Balancer"
+      }
+    ],
+    "domainMatcher" : "hybrid",
+    "domainStrategy" : "IPIfNonMatch",
+    "rules" : [
+      {
+        "domain" : [
+          "geosite:category-ads"
+        ],
+        "outboundTag" : "block",
+        "type" : "field"
+      },
+      {
+        "outboundTag" : "direct",
+        "protocol" : [
+          "bittorrent"
+        ],
+        "type" : "field"
+      },
+      {
+        "domain" : [
+          "domain:oversub.cloud",
+          "domain:cloudcdn-m9-12.cdn.yandex.netgis.ru",
+          "domain:47news.ru",
+          "domain:alfabank.ru",
+          "domain:akashi.vk-portal.net",
+          "domain:ams2-cdn.2gis.com",
+          "domain:api.browser.yandex.com",
+          "domain:api.events.plus.yandex.net",
+          "domain:api.photo.2gis.com",
+          "domain:api.premier.one",
+          "domain:api.okko.tv",
+          "domain:api.reviews.2gis.com",
+          "domain:api.s3.yandex.net",
+          "domain:api.uxfeedback.yandex.net",
+          "domain:auth-nsdi.ru",
+          "domain:auth.okko.tv",
+          "domain:auth.premier.one",
+          "domain:auto.ru",
+          "domain:avatars.mds.yandex.com",
+          "domain:avatars.mds.yandex.net",
+          "domain:avito.ru",
+          "domain:avito.st",
+          "domain:browser.yandex.com",
+          "domain:bro-bg-store.s3.yandex.com",
+          "domain:bro-bg-store.s3.yandex.net",
+          "domain:cdn.okko.tv",
+          "domain:cdn.premier.one",
+          "domain:cdn-vk.ru",
+          "domain:cdn.s3.yandex.net",
+          "domain:cdnrhkgfkkpupuotntfj.svc.cdn.yandex.net",
+          "domain:cikrf.ru",
+          "domain:cloud.cdn.yandex.com",
+          "domain:cloud.cdn.yandex.net",
+          "domain:cloud.vk.com",
+          "domain:collections.yandex.com",
+          "domain:catalog.api.2gis.com",
+          "domain:csp.yandex.net",
+          "domain:disk.2gis.com",
+          "domain:dr.yandex.net",
+          "domain:dr2.yandex.net",
+          "domain:dzen.ru",
+          "domain:egress.yandex.net",
+          "domain:eh.vk.com",
+          "domain:favorites.api.2gis.com",
+          "domain:favicon.yandex.com",
+          "domain:favicon.yandex.net",
+          "domain:filekeeper-vod.2gis.com",
+          "domain:gazeta.ru",
+          "domain:gismeteo.com",
+          "domain:gosuslugi.ru",
+          "domain:gov.ru",
+          "domain:government.ru",
+          "domain:gu-st.ru",
+          "domain:img.okko.tv",
+          "domain:img.premier.one",
+          "domain:izbirkom.ru",
+          "domain:jam.api.2gis.com",
+          "domain:keys.api.2gis.com",
+          "domain:kiks.yandex.com",
+          "domain:kinopoisk.ru",
+          "domain:kp.ru",
+          "domain:kremlin.ru",
+          "domain:lemanapro.ru",
+          "domain:lenta.ru",
+          "domain:lmru.tech",
+          "domain:login.vk.com",
+          "domain:m.okko.tv",
+          "domain:mail.ru",
+          "domain:mail.yandex.com",
+          "domain:mapgl.2gis.com",
+          "domain:max.ru",
+          "domain:mc.yandex.com",
+          "domain:mediafeeds.yandex.com",
+          "domain:mradx.net",
+          "domain:my.okko.tv",
+          "domain:my.premier.one",
+          "domain:ok.ru",
+          "domain:okcdn.ru",
+          "domain:okko.tv",
+          "domain:oneme.ru",
+          "domain:ozon.ru",
+          "domain:ozone.ru",
+          "domain:pchtest.userapi.com",
+          "domain:pochta.ru",
+          "domain:premier.one",
+          "domain:public-api.reviews.2gis.com",
+          "domain:push.okko.tv",
+          "domain:push.premier.one",
+          "domain:queuev4.vk.com",
+          "domain:r0.mradx.net",
+          "domain:rambler.ru",
+          "domain:rbc.ru",
+          "domain:receive-sentry.lmru.tech",
+          "domain:res-nsdi.ru",
+          "domain:rutube.ru",
+          "domain:rutubelist.ru",
+          "domain:rzd.ru",
+          "domain:sba.yandex.com",
+          "domain:sba.yandex.net",
+          "domain:speller.yandex.net",
+          "domain:static-mon.yandex.net",
+          "domain:static.okko.tv",
+          "domain:static.premier.one",
+          "domain:stats.okko.tv",
+          "domain:storage.ape.yandex.net",
+          "domain:stream.okko.tv",
+          "domain:stream.premier.one",
+          "domain:strm-rad-23.strm.yandex.net",
+          "domain:strm.yandex.net",
+          "domain:styles.api.2gis.com",
+          "domain:supermarket.lenta.com",
+          "domain:sync.browser.yandex.net",
+          "domain:t2.ru",
+          "domain:taximaxim.ru",
+          "domain:travel.yastatic.net",
+          "domain:tutu.ru",
+          "domain:tv.okko.tv",
+          "domain:userapi.com",
+          "domain:uxfeedback-cdn.s3.yandex.net",
+          "domain:vk.com",
+          "domain:vk-portal.net",
+          "domain:vk.ru",
+          "domain:vtb.ru",
+          "domain:wap.yandex.com",
+          "domain:wb.ru",
+          "domain:wildberries.ru",
+          "domain:www.gismeteo.com",
+          "domain:xn--80ajghhoc2aj1c8b.xn--p1ai",
+          "domain:ya.ru",
+          "domain:yandex.com",
+          "domain:yandex.net",
+          "domain:yandex.ru",
+          "domain:yastatic.net",
+          "domain:zen.yandex.com",
+          "domain:zen.yandex.net",
+          "domain:hh.ru",
+          "domain:lamoda.ru",
+          "domain:moysklad.ru",
+          "domain:cloudcdn-m9-2.cdn.yandex.net",
+          "domain:cloudcdn-m9-3.cdn.yandex.net",
+          "domain:cloudcdn-m9-4.cdn.yandex.net",
+          "domain:cloudcdn-m9-5.cdn.yandex.net",
+          "domain:cloudcdn-m9-6.cdn.yandex.net",
+          "domain:cloudcdn-m9-7.cdn.yandex.net",
+          "domain:cloudcdn-m9-9.cdn.yandex.net",
+          "domain:cloudcdn-m9-10.cdn.yandex.net",
+          "domain:cloudcdn-m9-12.cdn.yandex.net",
+          "domain:cloudcdn-m9-13.cdn.yandex.net",
+          "domain:cloudcdn-m9-14.cdn.yandex.net",
+          "domain:cloudcdn-m9-15.cdn.yandex.net",
+          "domain:i0.photo.2gis.com",
+          "domain:i1.photo.2gis.com",
+          "domain:i2.photo.2gis.com",
+          "domain:i3.photo.2gis.com",
+          "domain:i4.photo.2gis.com",
+          "domain:i5.photo.2gis.com",
+          "domain:i6.photo.2gis.com",
+          "domain:i7.photo.2gis.com",
+          "domain:i8.photo.2gis.com",
+          "domain:i9.photo.2gis.com",
+          "domain:tile0.maps.2gis.com",
+          "domain:tile1.maps.2gis.com",
+          "domain:tile2.maps.2gis.com",
+          "domain:tile3.maps.2gis.com",
+          "domain:tile4.maps.2gis.com",
+          "domain:s0.bss.2gis.com",
+          "domain:s1.bss.2gis.com",
+          "domain:00.img.avito.st",
+          "domain:01.img.avito.st",
+          "domain:02.img.avito.st",
+          "domain:03.img.avito.st",
+          "domain:04.img.avito.st",
+          "domain:05.img.avito.st",
+          "domain:06.img.avito.st",
+          "domain:07.img.avito.st",
+          "domain:08.img.avito.st",
+          "domain:09.img.avito.st",
+          "domain:10.img.avito.st",
+          "domain:11.img.avito.st",
+          "domain:12.img.avito.st",
+          "domain:13.img.avito.st",
+          "domain:14.img.avito.st",
+          "domain:15.img.avito.st",
+          "domain:16.img.avito.st",
+          "domain:17.img.avito.st",
+          "domain:18.img.avito.st",
+          "domain:19.img.avito.st",
+          "domain:20.img.avito.st",
+          "domain:21.img.avito.st",
+          "domain:22.img.avito.st",
+          "domain:23.img.avito.st",
+          "domain:24.img.avito.st",
+          "domain:25.img.avito.st",
+          "domain:26.img.avito.st",
+          "domain:27.img.avito.st",
+          "domain:28.img.avito.st",
+          "domain:29.img.avito.st",
+          "domain:30.img.avito.st",
+          "domain:31.img.avito.st",
+          "domain:32.img.avito.st",
+          "domain:33.img.avito.st",
+          "domain:34.img.avito.st",
+          "domain:35.img.avito.st",
+          "domain:36.img.avito.st",
+          "domain:37.img.avito.st",
+          "domain:38.img.avito.st",
+          "domain:39.img.avito.st",
+          "domain:40.img.avito.st",
+          "domain:41.img.avito.st",
+          "domain:42.img.avito.st",
+          "domain:43.img.avito.st",
+          "domain:44.img.avito.st",
+          "domain:45.img.avito.st",
+          "domain:46.img.avito.st",
+          "domain:47.img.avito.st",
+          "domain:48.img.avito.st",
+          "domain:49.img.avito.st",
+          "domain:50.img.avito.st",
+          "domain:51.img.avito.st",
+          "domain:52.img.avito.st",
+          "domain:53.img.avito.st",
+          "domain:54.img.avito.st",
+          "domain:55.img.avito.st",
+          "domain:56.img.avito.st",
+          "domain:57.img.avito.st",
+          "domain:58.img.avito.st",
+          "domain:59.img.avito.st",
+          "domain:60.img.avito.st",
+          "domain:61.img.avito.st",
+          "domain:62.img.avito.st",
+          "domain:63.img.avito.st",
+          "domain:64.img.avito.st",
+          "domain:65.img.avito.st",
+          "domain:66.img.avito.st",
+          "domain:67.img.avito.st",
+          "domain:68.img.avito.st",
+          "domain:69.img.avito.st",
+          "domain:70.img.avito.st",
+          "domain:71.img.avito.st",
+          "domain:72.img.avito.st",
+          "domain:73.img.avito.st",
+          "domain:74.img.avito.st",
+          "domain:75.img.avito.st",
+          "domain:76.img.avito.st",
+          "domain:77.img.avito.st",
+          "domain:78.img.avito.st",
+          "domain:79.img.avito.st",
+          "domain:80.img.avito.st",
+          "domain:81.img.avito.st",
+          "domain:82.img.avito.st",
+          "domain:83.img.avito.st",
+          "domain:84.img.avito.st",
+          "domain:85.img.avito.st",
+          "domain:86.img.avito.st",
+          "domain:87.img.avito.st",
+          "domain:88.img.avito.st",
+          "domain:89.img.avito.st",
+          "domain:90.img.avito.st",
+          "domain:91.img.avito.st",
+          "domain:92.img.avito.st",
+          "domain:93.img.avito.st",
+          "domain:94.img.avito.st",
+          "domain:95.img.avito.st",
+          "domain:96.img.avito.st",
+          "domain:97.img.avito.st",
+          "domain:98.img.avito.st",
+          "domain:99.img.avito.st",
+          "domain:sun1-13.userapi.com",
+          "domain:sun1-14.userapi.com",
+          "domain:sun1-15.userapi.com",
+          "domain:sun1-16.userapi.com",
+          "domain:sun1-17.userapi.com",
+          "domain:sun1-18.userapi.com",
+          "domain:sun1-19.userapi.com",
+          "domain:sun1-20.userapi.com",
+          "domain:sun1-21.userapi.com",
+          "domain:sun1-22.userapi.com",
+          "domain:sun1-23.userapi.com",
+          "domain:sun1-24.userapi.com",
+          "domain:sun1-25.userapi.com",
+          "domain:sun1-26.userapi.com",
+          "domain:sun1-27.userapi.com",
+          "domain:sun1-28.userapi.com",
+          "domain:sun1-29.userapi.com",
+          "domain:sun1-30.userapi.com",
+          "domain:sun1-47.userapi.com",
+          "domain:sun1-54.userapi.com",
+          "domain:sun1-55.userapi.com",
+          "domain:sun1-56.userapi.com",
+          "domain:sun1-57.userapi.com",
+          "domain:sun1-83.userapi.com",
+          "domain:sun1-84.userapi.com",
+          "domain:sun1-85.userapi.com",
+          "domain:sun1-86.userapi.com",
+          "domain:sun1-87.userapi.com",
+          "domain:sun1-88.userapi.com",
+          "domain:sun1-89.userapi.com",
+          "domain:sun1-90.userapi.com",
+          "domain:sun1-91.userapi.com",
+          "domain:sun1-92.userapi.com",
+          "domain:sun1-93.userapi.com",
+          "domain:sun1-94.userapi.com",
+          "domain:sun1-95.userapi.com",
+          "domain:sun1-96.userapi.com",
+          "domain:sun1-97.userapi.com",
+          "domain:sun1-98.userapi.com",
+          "domain:sun1-99.userapi.com",
+          "domain:sun2-10.userapi.com",
+          "domain:sun2-11.userapi.com",
+          "domain:sun2-12.userapi.com",
+          "domain:sun2-13.userapi.com",
+          "domain:sun2-14.userapi.com",
+          "domain:sun2-15.userapi.com",
+          "domain:sun2-16.userapi.com",
+          "domain:sun2-17.userapi.com",
+          "domain:sun2-18.userapi.com",
+          "domain:sun2-19.userapi.com",
+          "domain:sun2-20.userapi.com",
+          "domain:sun2-21.userapi.com",
+          "domain:sun2-22.userapi.com",
+          "domain:sun3-10.userapi.com",
+          "domain:sun3-11.userapi.com",
+          "domain:sun3-12.userapi.com",
+          "domain:sun3-13.userapi.com",
+          "domain:sun3-16.userapi.com",
+          "domain:sun3-17.userapi.com",
+          "domain:sun3-18.userapi.com",
+          "domain:sun3-19.userapi.com",
+          "domain:sun3-20.userapi.com",
+          "domain:sun3-21.userapi.com",
+          "domain:sun3-22.userapi.com",
+          "domain:sun3-23.userapi.com",
+          "domain:sun3-24.userapi.com",
+          "domain:sun4-10.userapi.com",
+          "domain:sun4-11.userapi.com",
+          "domain:sun4-12.userapi.com",
+          "domain:sun4-15.userapi.com",
+          "domain:sun4-16.userapi.com",
+          "domain:sun4-17.userapi.com",
+          "domain:sun4-18.userapi.com",
+          "domain:sun4-19.userapi.com",
+          "domain:sun4-20.userapi.com",
+          "domain:sun4-21.userapi.com",
+          "domain:sun4-22.userapi.com",
+          "domain:sun6-20.userapi.com",
+          "domain:sun6-21.userapi.com",
+          "domain:sun6-22.userapi.com",
+          "domain:sun6-23.userapi.com",
+          "domain:sun7-12.userapi.com",
+          "domain:sun7-13.userapi.com",
+          "domain:sun7-14.userapi.com",
+          "domain:sun7-15.userapi.com",
+          "domain:sun7-16.userapi.com",
+          "domain:sun7-17.userapi.com",
+          "domain:sun7-18.userapi.com",
+          "domain:sun7-19.userapi.com",
+          "domain:sun7-20.userapi.com",
+          "domain:sun7-21.userapi.com",
+          "domain:sun7-22.userapi.com",
+          "domain:sun7-23.userapi.com",
+          "domain:sun7-24.userapi.com",
+          "domain:sun9-10.userapi.com",
+          "domain:sun9-11.userapi.com",
+          "domain:sun9-12.userapi.com",
+          "domain:sun9-13.userapi.com",
+          "domain:sun9-14.userapi.com",
+          "domain:sun9-15.userapi.com",
+          "domain:sun9-16.userapi.com",
+          "domain:sun9-17.userapi.com",
+          "domain:sun9-18.userapi.com",
+          "domain:sun9-19.userapi.com",
+          "domain:sun9-20.userapi.com",
+          "domain:sun9-21.userapi.com",
+          "domain:sun9-22.userapi.com",
+          "domain:sun9-23.userapi.com",
+          "domain:sun9-24.userapi.com",
+          "domain:sun9-25.userapi.com",
+          "domain:sun9-26.userapi.com",
+          "domain:sun9-27.userapi.com",
+          "domain:sun9-28.userapi.com",
+          "domain:sun9-29.userapi.com",
+          "domain:sun9-30.userapi.com",
+          "domain:sun9-31.userapi.com",
+          "domain:sun9-32.userapi.com",
+          "domain:sun9-33.userapi.com",
+          "domain:sun9-34.userapi.com",
+          "domain:sun9-35.userapi.com",
+          "domain:sun9-36.userapi.com",
+          "domain:sun9-37.userapi.com",
+          "domain:sun9-38.userapi.com",
+          "domain:sun9-39.userapi.com",
+          "domain:sun9-40.userapi.com",
+          "domain:sun9-41.userapi.com",
+          "domain:sun9-42.userapi.com",
+          "domain:sun9-43.userapi.com",
+          "domain:sun9-44.userapi.com",
+          "domain:sun9-45.userapi.com",
+          "domain:sun9-46.userapi.com",
+          "domain:sun9-47.userapi.com",
+          "domain:sun9-48.userapi.com",
+          "domain:sun9-49.userapi.com",
+          "domain:sun9-50.userapi.com",
+          "domain:sun9-51.userapi.com",
+          "domain:sun9-52.userapi.com",
+          "domain:sun9-53.userapi.com",
+          "domain:sun9-54.userapi.com",
+          "domain:sun9-55.userapi.com",
+          "domain:sun9-56.userapi.com",
+          "domain:sun9-57.userapi.com",
+          "domain:sun9-58.userapi.com",
+          "domain:sun9-59.userapi.com",
+          "domain:sun9-60.userapi.com",
+          "domain:sun9-61.userapi.com",
+          "domain:sun9-62.userapi.com",
+          "domain:sun9-63.userapi.com",
+          "domain:sun9-64.userapi.com",
+          "domain:sun9-65.userapi.com",
+          "domain:sun9-66.userapi.com",
+          "domain:sun9-67.userapi.com",
+          "domain:sun9-68.userapi.com",
+          "domain:sun9-69.userapi.com",
+          "domain:sun9-70.userapi.com",
+          "domain:sun9-71.userapi.com",
+          "domain:sun9-72.userapi.com",
+          "domain:sun9-73.userapi.com",
+          "domain:sun9-74.userapi.com",
+          "domain:sun9-75.userapi.com",
+          "domain:sun9-76.userapi.com",
+          "domain:sun9-77.userapi.com",
+          "domain:sun9-78.userapi.com",
+          "domain:sun9-79.userapi.com",
+          "domain:sun9-80.userapi.com",
+          "domain:sun9-81.userapi.com",
+          "domain:sun9-82.userapi.com",
+          "domain:sun9-83.userapi.com",
+          "domain:sun9-84.userapi.com",
+          "domain:sun9-85.userapi.com",
+          "domain:sun9-86.userapi.com",
+          "domain:sun9-87.userapi.com",
+          "domain:sun9-88.userapi.com"
+        ],
+        "outboundTag" : "direct",
+        "type" : "field"
+      },
+      {
+        "balancerTag" : "Balancer",
+        "network" : "tcp,udp",
+        "type" : "field"
+      }
+    ]
+  }
+}
