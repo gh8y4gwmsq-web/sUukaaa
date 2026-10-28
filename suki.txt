@@ -2,7 +2,7 @@
 #profile-update-interval: 4
 #support-url: https://t.me/SuetaVpna
 #profile-web-page-url: https://t.me/SuetaVpna
-trojan://Bx-oL5U7kgWoegXNWvkuG5KzZXRzTA99@31.77.31.57:8443?type=tcp&headerType=none&security=tls&sni=node44.overcdn.ru&alpn=h2,http/1.1&fp=firefox#Германия6
+trojan://Bx-oL5U7kgWoegXNWvkuG5KzZXRzTA99@78.159.250.155:443?type=tcp&headerType=none&security=tls&sni=node228.overgroup.cloud&alpn=h2,http/1.1&fp=firefox#BaTaGo
 trojan://k7yGv5tfbVSGmb9pv5CyGCVMcsxSPh@185.229.9.62:443?type=tcp&security=tls&sni=node205.overgroup.cloud&alpn=h2,http/1.1&fp=firefox#Польша4
 vless://3f0a5d80-1a82-442d-ac9a-24ff64aaac9b@188.72.103.4:443?flow=&type=ws&host=pets.pawtrack.link&path=/api/v1/collars/c495220fa3/position&security=tls&sni=cdn.tracker.yandex.net&fp=firefox#Black🌹
 vmess://eyJmcCI6ImZpcmVmb3giLCJzY3kiOiJhdXRvIiwiaWQiOiI1N2RmZDdlNC01MzdkLTRjOGQtYjkyMC02ZjE1NTVkNjc5NWYiLCJob3N0IjoicmVuZGVyZXItc3RyZWFtLTEtODcxLm1pcnJhLm5vdyIsImFkZCI6InJlbmRlcmVyLXN0cmVhbS0xLTg3MS5taXJyYS5ub3ciLCJ0bHMiOiJ0bHMiLCJwYXRoIjoiXC9hcGlcL3YxXC9ncHUtc3RyZWFtXC9wdDJ1Y24yYWJhanFcL3NvY2tldCIsImFscG4iOiJoMiIsInNuaSI6InJlbmRlcmVyLXN0cmVhbS0xLTg3MS5taXJyYS5ub3ciLCJuZXQiOiJ3cyIsInBzIjoiU291dGgxIiwicG9ydCI6IjQ0MyJ9
