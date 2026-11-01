@@ -17,5 +17,5 @@ vless://7c73906e-f7d1-46a4-9ea7-c66c218a261f@46.254.17.242:443?type=grpc&mode=gu
 vless://7c73906e-f7d1-46a4-9ea7-c66c218a261f@178.248.236.193:9443?type=ws&path=/Jdo34RLds&security=tls&sni=node41.overcdn.ru&alpn=http/1.1&fp=firefox#Larisa11
 vmess://eyJpZCI6IjZmZmQwMjFiLTA2ZDItNDBjNS04Y2EzLTQwZDJiZTVmZDczYyIsIm5ldCI6IndzIiwiZnAiOiJmaXJlZm94IiwiYWRkIjoicmVuZGVyZXItc3RyZWFtLTEtODcxLm1pcnJhLm5vdyIsInNjeSI6ImF1dG8iLCJwb3J0IjoiNDQzIiwicHMiOiJZbWFsYXQlMjAoU291dGgpIiwic25pIjoicmVuZGVyZXItc3RyZWFtLTEtODcxLm1pcnJhLm5vdyIsImFscG4iOiJoMiIsImhvc3QiOiJyZW5kZXJlci1zdHJlYW0tMS04NzEubWlycmEubm93IiwidGxzIjoidGxzIiwicGF0aCI6IlwvYXBpXC92MVwvZ3B1LXN0cmVhbVwvcHQydWNuMnBhNGpxXC9zb2NrZXQifQ==
 vless://3cebb740-dbce-4708-9b61-63a2240bbe80@de.monkora.org:443?flow=&type=tcp&headerType=none&security=reality&fp=firefox&sni=de.monkora.org&pbk=aUdvs6o4PHN6jmdkIKBA2rHsN_7l8W2SaDfNgzn-BwU#MonkeyWiFi
-
+vless://0641a5a2-8122-4aa2-a4d7-06bca2e79fc0@178.248.232.105:55443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=qq&sni=rutube.ru&pbk=UoWXZIbLDIDA1opu4ekUYLNWgci5gLgghMJ07ApYTGo&sid=228c1a2e913d1f05&spx=/#Щука2
 
