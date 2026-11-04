@@ -5,9 +5,9 @@
 trojan://Bx-oL5U7kgWoegXNWvkuG5KzZXRzTA99@78.159.250.155:443?type=tcp&headerType=none&security=tls&sni=node228.overgroup.cloud&alpn=h2,http/1.1&fp=firefox#BaTaGo
 trojan://nAtDnDFFLgJFhhJTEQA1K2pxR7aWdUoQ@78.159.250.98:443?type=tcp&headerType=none&security=tls&sni=node228.overgroup.cloud&alpn=h2,http/1.1&fp=firefox#Muhtar3
 trojan://k7yGv5tfbVSGmb9pv5CyGCVMcsxSPh@185.229.9.62:443?type=tcp&security=tls&sni=node205.overgroup.cloud&alpn=h2,http/1.1&fp=firefox#Польша4
-vless://3f0a5d80-1a82-442d-ac9a-24ff64aaac9b@188.72.103.4:443?flow=&type=ws&host=valves.fieldtap.link&path=/api/v1/valves/030a82375e/schedule&security=tls&sni=cdn.tracker.yandex.net&fp=firefox#%F0%9F%87%A9%F0%9F%87%AABlack🌹
-vless://3f0a5d80-1a82-442d-ac9a-24ff64aaac9b@188.72.110.51:443?flow=&type=ws&host=valves.fieldtap.link&path=/api/v1/valves/e334d93102/schedule&security=tls&sni=cdn.tracker.yandex.net&fp=firefox#%F0%9F%87%B3%F0%9F%87%B1Black2🌹
-vless://3f0a5d80-1a82-442d-ac9a-24ff64aaac9b@188.72.112.1:443?flow=&type=ws&host=pets.pawtrack.link&path=/api/v1/collars/c92ccb19e8/position&security=tls&sni=cdn.tracker.yandex.net&fp=firefox#%F0%9F%87%AB%F0%9F%87%AEBlack3🌹
+vless://3f0a5d80-1a82-442d-ac9a-24ff64aaac9b@188.72.103.4:443?flow=&type=ws&host=valves.fieldtap.link&path=/api/v1/valves/030a82375e/schedule&security=tls&sni=cdn.tracker.yandex.net&fp=firefox#Black🌹
+vless://3f0a5d80-1a82-442d-ac9a-24ff64aaac9b@188.72.110.51:443?flow=&type=ws&host=valves.fieldtap.link&path=/api/v1/valves/e334d93102/schedule&security=tls&sni=cdn.tracker.yandex.net&fp=firefox#Black2🌹
+vless://3f0a5d80-1a82-442d-ac9a-24ff64aaac9b@188.72.112.1:443?flow=&type=ws&host=pets.pawtrack.link&path=/api/v1/collars/c92ccb19e8/position&security=tls&sni=cdn.tracker.yandex.net&fp=firefox#Black3🌹
 vless://7c73906e-f7d1-46a4-9ea7-c66c218a261f@95.163.251.97:443?type=grpc&mode=gun&serviceName=grpc&security=tls&sni=node227.rushtaxi.ru&alpn=h2,http/1.1&fp=firefox#Польша1
 vless://7c73906e-f7d1-46a4-9ea7-c66c218a261f@185.86.147.76:443?type=grpc&mode=gun&serviceName=grpc&security=tls&sni=node227.rushtaxi.ru&alpn=h2,http/1.1&fp=firefox#Польша2
 vless://7c73906e-f7d1-46a4-9ea7-c66c218a261f@178.248.236.193:6443?type=ws&path=/Jdo34RLds&security=tls&sni=node208.overgroup.cloud&alpn=http/1.1&fp=firefox#Нидерланды12
